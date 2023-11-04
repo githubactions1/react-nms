@@ -29,6 +29,5 @@ jobs:
 
       - name: Deploy code
         run: |
-          # Assuming you have already copied your code to /var/www/html
-          sudo chown -R NMS:NMS /var/www/html
-        # Additional deployment steps can be added here if necessary
+          npm run start
+
