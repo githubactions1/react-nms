@@ -5,7 +5,7 @@ function devicedetails() {
     <>
       <div id="layout-wrapper">
   <div className="main-content">
-    <header id="page-topbar">
+    <header id="page-topbar"> 
       <div className="navbar-header"> 
         {/* <!-- LOGO --> */}
         <div className="navbar-brand-box d-flex align-items-left"> <a href="index.html" className="logo"> <i className="feather-arrow-right-circle"></i> <span> Network Management System </span> </a>
