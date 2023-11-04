@@ -29,12 +29,12 @@ jobs:
 
       - name: Start the application with PM2
         run: |
-          cd /var/www/html/src
+          cd /var/www/html/react_nms/src
           pm2 start App.js
           
       # Additional steps for running tests, etc.
 
       - name: Stop the application with PM2
         run: |
-          cd /var/www/html/src
+          cd /var/www/html/react_nms/src
           pm2 stop App.js
