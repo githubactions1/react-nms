@@ -27,10 +27,6 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
-      - name: Deploy code
-        run: |
-          npm run start
-
       - name: Start the application with PM2
         run: |
           cd /var/www/html/src
