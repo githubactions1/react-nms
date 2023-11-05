@@ -23,21 +23,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-          
-      - name: Checkout to Application Directory 
-        working-directory: /var/www/html/react_nms
-      
-      - name: Install Node.js dependencies
-        run: |
-          cd /var/www/html/react_nms 
-          npm ci
-          
-      - name: Build the application
-        run: |
-          cd /var/www/html/react_nms 
-          npm run build
-          
-      - name: Start the application
-        run: |
-          cd /var/www/html/react_nms 
-          npm start
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
