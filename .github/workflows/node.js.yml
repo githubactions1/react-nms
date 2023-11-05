@@ -16,10 +16,10 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v2 # Use v2 instead of v3
+        uses: actions/checkout@v2 
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2 # Use v2 instead of v3
+        uses: actions/setup-node@v2 
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
@@ -29,15 +29,15 @@ jobs:
       
       - name: Install Node.js dependencies
         run: |
-          cd /var/www/html/react_nms # Change to the correct directory
+          cd /var/www/html/react_nms 
           npm ci
           
       - name: Build the application
         run: |
-          cd /var/www/html/react_nms # Change to the correct directory
+          cd /var/www/html/react_nms 
           npm run build
           
       - name: Start the application
         run: |
-          cd /var/www/html/react_nms # Change to the correct directory
+          cd /var/www/html/react_nms 
           npm start
