@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import {Link, UseNavigate} from 'react-router-dom';
+// import {Link, UseNavigate} from 'react-router-dom';
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
 
-const LoginForm = ({ history }) => {
+
+const LoginForm = () => {
+  const navigate = useNavigate()
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showSubmitError, setShowSubmitError] = useState(false);
@@ -18,24 +21,35 @@ const LoginForm = ({ history }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const userDetails = { username, password };
-    const url = 'http://localhost:5000/api/traffic_data';
-    const options = {
-      method: 'POST',
-      body: JSON.stringify(userDetails),
-    };
-    const response = await fetch(url, options);
-    const data = await response.json();
-    console.log(data);
-    console.log("userDetails",userDetails);
-    if (response.ok === true) {
-      // Handle successful submission
-    } else {
-      setErrorMsg(data.error_msg);
-      setShowSubmitError(true);
-    }
-  };
   
+    try {
+      console.log(username, password)
+      const response = await axios.post('http://202.53.92.6:8080/apirt1/nmsuat/login', {
+        
+        user_email: username,
+        user_password: password
+
+      });
+       console.log(response)
+      
+      if (response.data.status === 200) {
+
+          navigate('/home')
+
+        
+        console.log("successful")
+      } else {
+        
+        setErrorMsg(response.data.error.message);
+        setShowSubmitError(true);
+      }
+    } catch (error) {
+      console.error('Error during login:', error);
+      setErrorMsg('An error occurred during login. Please try again later.');
+      setShowSubmitError(true);
+  }
+  };
+
   return (
     <div className="container">
       <div className="row">

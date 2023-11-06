@@ -266,7 +266,7 @@ function DeviceStatus() {
               <div className="col-lg-2">
                 <div className="form-group mt-2">
                   <input type="checkbox" checked data-toggle="switchery" data-color="#ccc" data-size="small" title="Show Enabled / Disabled"/>
-                  <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onclick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                  <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onClick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
                 </div>
               </div>
             </div>

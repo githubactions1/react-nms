@@ -1,25 +1,5 @@
 import React from 'react'
 
-// function MyComponent() {
-//   function handleClick() {
-//     alert('Button clicked!');
-//   }
-
-//   return (
-//     <div>
-//     <div className="form-group">
-//   <select onClick={handleClick} className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Locations">
-//     <option value="1">One</option>
-//     <option value="2">Two</option>
-//     <option value="3">Three</option>
-//     <option value="4">Four</option>
-//   </select>
-
-// </div>
-//     </div>
-//   );
-// }
-
 function devices() {
   return (
     <>
@@ -292,7 +272,7 @@ function devices() {
               <div className="col-lg-2">
                 <div className="form-group mt-2">
                   <input type="checkbox" checked data-toggle="switchery" data-color="#ccc" data-size="small" title="Show Enabled / Disabled"/>
-                  <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onClick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                  <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onClick={""} value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
                 </div>
               </div>
             </div>

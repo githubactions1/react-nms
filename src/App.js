@@ -1,7 +1,10 @@
-import LoginForm from "./Components/LoginForm/login.js"
+import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+
+import LoginForm from "./Components/LoginForm/login.js"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import LockScreen from './Components/LockScreen/lockscreen.js';
+import LockScreen from './Components/LockScreen/lockScreen.js';
 import Home from './Components/Home/home.js';
 import RecoverPassword from './Components/RecoverPassword/recover.js';
 import Register from './Components/Register/register.js';
@@ -10,8 +13,8 @@ import Ports from './Components/Ports/ports.js';
 import Devices from './Components/Devices/devices.js';
 import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling.js';
 import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
-import DeviceDetails from './Components/DeviceDetails/devicedetails.js';
-import PortsBasic from './Components/PortsBasic/portsbasic.js';
+import DeviceDetails from './Components/DeviceDetails/deviceDetails.js';
+import PortsBasic from './Components/PortsBasic/portsBasic.js';
 
 
 import './App.css';

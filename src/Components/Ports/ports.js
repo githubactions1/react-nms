@@ -1,4 +1,8 @@
 import React from 'react'
+import 'popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 function ports() {
   return (
@@ -223,7 +227,7 @@ function ports() {
                 </div>
               </div>
               <div className="col-lg-1 mt-2">
-                <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onclick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onClick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
               </div>
             </div>
           </div>
@@ -361,41 +365,8 @@ function ports() {
   
 </div>
 
-{/* $('.selectpicker').selectpicker(); */}
-
-<script src="assets/js/jquery.min.js"></script> 
-<script src="assets/js/bootstrap.bundle.min.js"></script> 
-<script src="assets/js/waves.js"></script> 
-<script src="assets/js/simplebar.min.js"></script> 
-
-{/* <!-- Morris Js-->  */}
-<script src="../plugins/morris-js/morris.min.js"></script> 
-{/* <!-- Raphael Js-->  */}
-<script src="../plugins/raphael/raphael.min.js"></script> 
 
 
-{/* <!-- Morris Custom Js-->  */}
-<script src="assets/pages/dashboard-demo.js"></script> 
-
-{/* <!-- App js -->  */}
-<script src="assets/js/theme.js"></script> 
-{/* <!-- Script Tooltip js -->  */}
-<script src="assets/js/script_tooltip.js"></script> 
-
-{/* <!-- Morris Custom Js-->  */}
-<script src="assets/pages/morris-chart-demo.js"></script> 
-
-{/* <!-- Chart Js-->  */}
-<script src="../plugins/chart-js/chart.min.js"></script> 
-
-{/* <!-- Multi Select dropdown Js-->  */}
-<script src="assets/js/bootstrap-select.min.js"></script> 
-
-{/* <!-- Plugins js -->  */}
-<script src="./assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
-<script src="./assets/plugins/switchery/switchery.min.js"></script> 
-<script src="assets/pages/advanced-plugins-demo.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
 
 
 
