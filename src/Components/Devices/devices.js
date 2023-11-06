@@ -436,7 +436,7 @@ function devices() {
   </div>
 </div>
 
-{/* <div id="pop-up1">
+<div id="pop-up1">
   <div class="table-responsive">
     <table class="table table-centered table-hover table-xl mb-0" id="">
       <tbody>
@@ -477,7 +477,7 @@ function devices() {
       </tbody>
     </table>
   </div>
-</div> */}
+</div>
 
 </>
 
