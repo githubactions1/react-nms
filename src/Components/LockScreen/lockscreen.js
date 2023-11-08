@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
+
 import React from 'react'
 
 function lockScreen() {
@@ -21,7 +21,7 @@ function lockScreen() {
                                     </div>
 
                                     <div className="text-center">
-                                        <img src="public/assets/images/users/avatar-1.jpg" alt="Generic placeholder image" className="avatar-md rounded-circle img-thumbnail" />
+                                        <img src="public/assets/images/users/avatar-1.jpg" alt="Generic placeholder img" className="avatar-md rounded-circle img-thumbnail" />
                                         <h1 className="h5 mb-1 mt-2">Henry John</h1>
                                         <p className="text-muted mb-4">Enter your password to access the admin.</p>
                                     </div>

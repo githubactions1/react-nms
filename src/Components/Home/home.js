@@ -15,28 +15,65 @@ import axios from "axios";
 // } from "recharts";
 import "bootstrap/dist/css/bootstrap.css";
 
-const data = [
+// const data = [
   
-];
+// ];
 
 function Home() {
-  const [ setData] = useState([]);
+  const [apiData, setApiData] = useState({count:0});
 
   useEffect(() => {
-    const apiUrl = "http://127.0.0.1:5000";
+  
+    const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/dashboard/devices';
+    
+   
 
     axios
-      .get(apiUrl)
+      .get(API_URL)
       .then((response) => {
-        setData(response.data);
+        
+        console.log(response.data.data[0].count)
+       
+        
+        setApiData (response.data.data[0]);
+        
+
       })
       .catch((error) => {
-        console.error("Error fetching data:", error);
-        console.log(data)
+        console.error('Error fetching data:', error);
       });
-  });
+  }, []); 
+    
+  const [portData, setPortData] = useState({count:0});
+
+  useEffect(() => {
+  
+    const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/dashboard/ports';
+    
+   
+
+    axios
+      .get(API_URL)
+      .then((response) => {
+        
+        console.log(response.data.data[0].count)
+       
+        
+        setPortData (response.data.data[0]);
+        
+
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+  }, []); 
+
+
+  
+  
 
   return (
+    <>
     <div>
       <div>
         <div id="layout-wrapper">
@@ -562,51 +599,50 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-xxl-6 col-md-6">
-                    <div className="sales-card">
-                      <div className="card-body">
-                        <h5 className="card-title">Devices</h5>
-                        <div className="d-flex align-items-center">
-                          <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                            {" "}
-                            <i className="mdi mdi-monitor-screenshot"></i>{" "}
-                          </div>
-                          <div className="device">
-                            <h6>Total</h6>
-                            <p>
-                              <a href="dhf">5</a>
-                            </p>
-                          </div>
-                          <div className="device">
-                            <h6>Up</h6>
-                            <p>
-                              <a href="dhf"> 4 UP</a>
-                            </p>
-                          </div>
-                          <div className="device">
-                            <h6> Alert</h6>
-                            <p>
-                              <a href="dhf"> 1 down</a>
-                            </p>
-                          </div>
-                          <div className="device">
-                            <h6> Ignored (Dev)</h6>
-                            <p>
-                              <a href="dhf"> 0 ignored</a>
-                            </p>
-                          </div>
-                          <div className="device">
-                            <h6> Disabled / Shut</h6>
-                            <p>
-                              <a href="dhf">0 disabled</a>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
+                <div>
+                <div className="col-xxl-6 col-md-6">
+      <div className="sales-card">
+        <div className="card-body">
+          <h5 className="card-title">Devices</h5>
+          <div className="d-flex align-items-center">
+            <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
+              <i className="mdi mdi-monitor-screenshot"></i>
+            </div>
+            <div className="device">
+              <h6>Total</h6>
+              <p>
+                <a href="setApiData">{apiData.count}</a>
+              </p>
+            </div>
+            <div className="device">
+              <h6>Up</h6>
+              <p>
+                <a href="dhf">{apiData.Down_Count}</a>
+              </p>
+            </div>
+            <div className="device">
+              <h6>Alert</h6>
+              <p>
+                <a href="dhf">{apiData.Up_Count}</a>
+              </p>
+            </div>
+            <div className="device">
+              <h6>Ignored (Dev)</h6>
+              <p>
+                <a href="dhf">{apiData.ignore_count}</a>
+              </p>
+            </div>
+            <div className="device">
+              <h6>Disabled / Shut</h6>
+              <p>
+                <a href="dhf">{apiData.disabled_count}</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
                   <div className="col-xxl-6 col-md-6">
                     <div className="sales-card">
                       <div className="card-body">
@@ -619,31 +655,31 @@ function Home() {
                           <div className="device">
                             <h6>Total</h6>
                             <p>
-                              <a href="dhf">5</a>
+                            {portData.count}
                             </p>
                           </div>
                           <div className="device">
                             <h6>Up</h6>
                             <p>
-                              <a href="dhf"> 4 UP</a>
+                              <a href="dhf"> {portData.Down_Count}</a>
                             </p>
                           </div>
                           <div className="device">
                             <h6> Alert</h6>
                             <p>
-                              <a href="dhf"> 1 down</a>
+                              <a href="dhf"> {portData.Up_Count}</a>
                             </p>
                           </div>
                           <div className="device">
                             <h6> Ignored (Dev)</h6>
                             <p>
-                              <a href="dhf"> 0 ignored</a>
+                              <a href="dhf"> {portData.ignore_count}</a>
                             </p>
                           </div>
                           <div className="device">
                             <h6> Disabled / Shut</h6>
                             <p>
-                              <a href="dhf">0 disabled</a>
+                              <a href="dhf">{portData.disabled_count}</a>
                             </p>
                           </div>
                         </div>
@@ -737,6 +773,7 @@ function Home() {
                         </div>
                       </div>
                     </div>
+                  </div>
                   </div>
 
                   <div className="col-xl-4">
@@ -1041,7 +1078,7 @@ function Home() {
                             <tr>
                               <td className="blue"></td>
                               <td className="text-truncate">
-                                <a href=" ">
+                                <a href=" ">  
                                   <strong>5h 4m 3s</strong>
                                 </a>
                               </td>
@@ -1321,7 +1358,7 @@ function Home() {
           </table>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

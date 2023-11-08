@@ -1,10 +1,38 @@
 import React from 'react'
-import 'popper.js';
+// import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Multiselect from 'multiselect-react-dropdown';
+import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 
-function ports() {
+function Ports() {
+
+  const [dropDownData, setDropDownData] = useState({ count: 0 });
+
+  useEffect(() => {
+    const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/devices/dropdownlist';
+
+    axios
+      .get(API_URL)
+      .then((response) => {
+        console.log(response)
+        if (response.data && response.data.data && response.data.data.length > 0) {
+          
+          const firstOption = response.data.data[0];
+          setDropDownData(firstOption);
+        }
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+  }, []);
+
+
+
+
   return (
     <> 
     <div id="layout-wrapper">
@@ -131,22 +159,23 @@ function ports() {
             <div className="row">
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
-                  </select>
+                
+                <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="countries"
+        placeholder= "Devices"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device Locations">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
-                  </select>
+                 <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="countries"
+        placeholder= "Devices Location"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
@@ -156,29 +185,64 @@ function ports() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Port State">
-                    <option value="1">Up</option>
-                    <option value="2">Down</option>
-                    <option value="3">Admin Down</option>
-                  </select>
+               
+                <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="countries"
+        placeholder= "Port State"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Port Media">
-                    <option value="1">Ethernet (ethernetCsmacd)</option>
-                    <option value="2">PPP(ppp)</option>
-                  </select>
+                <DropdownMultiselect
+        options={dropDownData.vendor}
+        name="countries"
+        placeholder= "Port Media "
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Groups">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
-                  </select>
+                <Multiselect multiple aria-label="Default select example" placeholder="Select Groups"
+  displayValue="key"
+  onKeyPressFn={function noRefCheck(){}}
+  onRemove={function noRefCheck(){}}
+  onSearch={function noRefCheck(){}}
+  onSelect={function noRefCheck(){}}
+  options={[
+    {
+      cat: 'Group 1',
+      key: '1'
+    },
+    {
+      cat: 'Group 1',
+      key: ' 2'
+    },
+    {
+      cat: 'Group 1',
+      key: ' 3'
+    },
+    {
+      cat: 'Group 2',
+      key: 'Option 4'
+    },
+    {
+      cat: 'Group 2',
+      key: 'Option 5'
+    },
+    {
+      cat: 'Group 2',
+      key: 'Option 6'
+    },
+    {
+      cat: 'Group 2',
+      key: 'Option 7'
+    }
+  ]}
+/>
                 </div>
               </div>
             </div>
@@ -200,30 +264,56 @@ function ports() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Port Speed">
-                    <option value="1">1Gbps</option>
-                    <option value="2">100Mbps</option>
-                  </select>
+                <Multiselect multiple aria-label="Default select example" placeholder="Port Speed"
+  displayValue="key"
+  onKeyPressFn={function noRefCheck(){}}
+  onRemove={function noRefCheck(){}}
+  onSearch={function noRefCheck(){}}
+  onSelect={function noRefCheck(){}}
+  options={[
+    {
+      cat: 'Group 1',
+      key: '1'
+    },
+    {
+      cat: 'Group 1',
+      key: ' 2'
+    }
+    
+  ]}
+/>
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Port Type">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
-                  </select>
+                <Multiselect multiple aria-label="Default select example" placeholder="Port Type"
+  displayValue="key"
+  onKeyPressFn={function noRefCheck(){}}
+  onRemove={function noRefCheck(){}}
+  onSearch={function noRefCheck(){}}
+  onSelect={function noRefCheck(){}}
+  options={[
+   
+  ]}
+/>
                 </div>
               </div>
               <div className="col-lg-1">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
-                  </select>
+                <Multiselect multiple aria-label="Default select example"  data-live-search="true" placeholder="Port State"
+  displayValue="key"
+  onKeyPressFn={function noRefCheck(){}}
+  onRemove={function noRefCheck(){}}
+  onSearch={function noRefCheck(){}}
+  onSelect={function noRefCheck(){}}
+  options={[
+    {
+      cat: 'Group 1',
+      key: '1'
+    }
+  ]}
+/>
+                 
                 </div>
               </div>
               <div className="col-lg-1 mt-2">
@@ -373,7 +463,8 @@ function ports() {
 
 
 </> 
+
   )
 }
 
-export default ports
+export default Ports
