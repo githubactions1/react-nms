@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
     name   : "NMS-React",
-    script : "npm run start"
+    script : "pm2 start App.js"
   }]
 }
