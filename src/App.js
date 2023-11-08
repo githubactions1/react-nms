@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 // import 'popper.js';
 // import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/js/bootstrap.bundle';
  
+=======
+//import 'popper.js';
+//import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap/dist/js/bootstrap.bundle';
+>>>>>>> 9c36c8316be7c97e7bcb3df05532120f348e0679
 
 import LoginForm from "./Components/LoginForm/login.js"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
