@@ -1,6 +1,6 @@
 import React from 'react'
 
-function devicedetails() {
+function DeviceDetails() {
   return (
     <>
       <div id="layout-wrapper">
