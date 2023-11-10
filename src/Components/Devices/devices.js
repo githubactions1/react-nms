@@ -387,7 +387,8 @@ function Devices() {
       </div>
       
     </div>
-  
+   
+{/* <!-- HIDDEN / POP-UP DIV --> */}
     
     <footer class="footer">
       <div class="container-fluid">

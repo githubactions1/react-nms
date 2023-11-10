@@ -1,32 +1,32 @@
 import React from 'react'
-// import 'popper.js';
+import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Multiselect from 'multiselect-react-dropdown';
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
-import { useState, useEffect } from "react";
-import axios from "axios";
+// import { useState, useEffect } from "react";
+// import axios from "axios";
 
 
 
 function Ports() {
 
-  const [dropDownData, setDropDownData] = useState({ count: 0 });
+  // const [dropDownData, setDropDownData] = useState({ count: 0 });
 
-  useEffect(() => {
-    const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/devices/dropdownlist';
+  // useEffect(() => {
+  //   const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/devices/dropdownlist';
 
-    axios
-      .get(API_URL)
-      .then((response) => {
+  //   axios
+  //     .get(API_URL)
+  //     .then((response) => {
         
-          setDropDownData(response);
+  //         setDropDownData(response);
      
-       })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
+  //      })
+  //     .catch((error) => {
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }, []);
 
 
 
@@ -194,12 +194,12 @@ function Ports() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                <DropdownMultiselect
+                {/* <DropdownMultiselect
         options={dropDownData.vendor}
         name="countries"
         placeholder= "Port Media "
 
-      />
+      /> */}
                 </div>
               </div>
               <div className="col-lg-2">
