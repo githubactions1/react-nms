@@ -5,7 +5,7 @@
 
 import LoginForm from "./Components/LoginForm/login.js"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import LockScreen from './Components/LockScreen/lockScreen.js';
+import LockScreen from './Components/LockScreen/LockScreen.js';
 import Home1 from './Components/Home/home1.js';
 import RecoverPassword from './Components/RecoverPassword/recover.js';
 import Register from './Components/Register/register.js';
