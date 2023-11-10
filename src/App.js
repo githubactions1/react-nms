@@ -5,7 +5,7 @@
 
 import LoginForm from "./Components/LoginForm/login.js"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import LockScreen from "./Components/LockScreen/LockScreen.js";
+import LockScreen from "../src/Components/LockScreen/lockscreen.js";
 import Home1 from './Components/Home/home1.js';
 import RecoverPassword from './Components/RecoverPassword/recover.js';
 import Register from './Components/Register/register.js';
@@ -14,8 +14,8 @@ import Ports from './Components/Ports/ports.js';
 import Devices from './Components/Devices/devices.js';
 import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling.js';
 import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
-import DeviceDetails from "./Components/DeviceDetails/deviceDetails.js";
-import PortsBasic from "./Components/PortsBasic/portsBasic.js";
+import DeviceDetails from "../src/Components/DeviceDetails/devicedetails.js";
+import PortsBasic from "../src/Components/PortsBasic/portsbasic.js";
 
 
 import './App.css';
