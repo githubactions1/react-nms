@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 
+
 function Ports() {
 
   const [dropDownData, setDropDownData] = useState({ count: 0 });
@@ -18,13 +19,10 @@ function Ports() {
     axios
       .get(API_URL)
       .then((response) => {
-        console.log(response)
-        if (response.data && response.data.data && response.data.data.length > 0) {
-          
-          const firstOption = response.data.data[0];
-          setDropDownData(firstOption);
-        }
-      })
+        
+          setDropDownData(response);
+     
+       })
       .catch((error) => {
         console.error('Error fetching data:', error);
       });
@@ -454,13 +452,6 @@ function Ports() {
 
   
 </div>
-
-
-
-
-
-
-
 
 </> 
 

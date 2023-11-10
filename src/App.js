@@ -1,18 +1,12 @@
-<<<<<<< HEAD
 // import 'popper.js';
 // import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/js/bootstrap.bundle';
  
-=======
-//import 'popper.js';
-//import 'bootstrap/dist/css/bootstrap.css';
-//import 'bootstrap/dist/js/bootstrap.bundle';
->>>>>>> 9c36c8316be7c97e7bcb3df05532120f348e0679
 
 import LoginForm from "./Components/LoginForm/login.js"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import LockScreen from './Components/LockScreen/lockScreen.js';
-import Home from './Components/Home/home.js';
+import Home1 from './Components/Home/home1.js';
 import RecoverPassword from './Components/RecoverPassword/recover.js';
 import Register from './Components/Register/register.js';
 import Notfound from './Components/Notfound/error.js';
@@ -32,7 +26,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<LoginForm />} />
-        <Route exact path="/Home" element={<Home />} />
+        <Route exact path="/Home" element={<Home1 />} />
         <Route exact path="/LockScreen" element={<LockScreen />} />
         <Route exact path="/RecoverPassword" element={<RecoverPassword />} />
         <Route exact path="/Register" element={<Register />} />
