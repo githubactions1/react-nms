@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-function lockscreen() {
+function LockScreen() {
   return (
     <div>
     <div className="container">
@@ -54,4 +54,4 @@ function lockscreen() {
   )
 }
 
-export default lockscreen;
+export default LockScreen;

@@ -468,4 +468,4 @@ function devicedetails() {
   )
 }
 
-export default devicedetails
+export default DeviceDetails

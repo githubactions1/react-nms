@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function portsbasic() {
+export default function PortsBasic() {
   return (
     <>
       <div id="layout-wrapper">
