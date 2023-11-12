@@ -2,31 +2,36 @@ import React from 'react'
 import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Multiselect from 'multiselect-react-dropdown';
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
-// import { useState, useEffect } from "react";
-// import axios from "axios";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 
 
 function Ports() {
 
-  // const [dropDownData, setDropDownData] = useState({ count: 0 });
+  const [dropDownData, setDropDownData] = useState({ count: 0 });
 
-  // useEffect(() => {
-  //   const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/devices/dropdownlist';
+  useEffect(() => {
+    const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/devices/dropdownlist';
 
-  //   axios
-  //     .get(API_URL)
-  //     .then((response) => {
+    axios
+      .get(API_URL)
+      .then((response) => {
         
-  //         setDropDownData(response);
+          setDropDownData(response);
      
-  //      })
-  //     .catch((error) => {
-  //       console.error('Error fetching data:', error);
-  //     });
-  // }, []);
+       })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+  }, []);
+
+  const handleSearchClick = () => {
+    // Implement the functionality you want to execute on button click
+    console.log("Search button clicked!");
+    // ... other code
+  };
 
 
 
@@ -160,7 +165,7 @@ function Ports() {
                 
                 <DropdownMultiselect
         options={["one", "two", "three"]}
-        name="countries"
+        name="Device"
         placeholder= "Devices"
 
       />
@@ -170,7 +175,7 @@ function Ports() {
                 <div className="form-group">
                  <DropdownMultiselect
         options={["one", "two", "three"]}
-        name="countries"
+        name="Device Location"
         placeholder= "Devices Location"
 
       />
@@ -186,7 +191,7 @@ function Ports() {
                
                 <DropdownMultiselect
         options={["one", "two", "three"]}
-        name="countries"
+        name="Port State"
         placeholder= "Port State"
 
       />
@@ -194,53 +199,22 @@ function Ports() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                {/* <DropdownMultiselect
-        options={dropDownData.vendor}
-        name="countries"
-        placeholder= "Port Media "
+                <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="Port Media"
+        placeholder= "Port Media"
 
-      /> */}
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                <Multiselect multiple aria-label="Default select example" placeholder="Select Groups"
-  displayValue="key"
-  onKeyPressFn={function noRefCheck(){}}
-  onRemove={function noRefCheck(){}}
-  onSearch={function noRefCheck(){}}
-  onSelect={function noRefCheck(){}}
-  options={[
-    {
-      cat: 'Group 1',
-      key: '1'
-    },
-    {
-      cat: 'Group 1',
-      key: ' 2'
-    },
-    {
-      cat: 'Group 1',
-      key: ' 3'
-    },
-    {
-      cat: 'Group 2',
-      key: 'Option 4'
-    },
-    {
-      cat: 'Group 2',
-      key: 'Option 5'
-    },
-    {
-      cat: 'Group 2',
-      key: 'Option 6'
-    },
-    {
-      cat: 'Group 2',
-      key: 'Option 7'
-    }
-  ]}
-/>
+                <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="Select Groups"
+        placeholder= "Select Groups"
+
+      />
                 </div>
               </div>
             </div>
@@ -262,60 +236,37 @@ function Ports() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                <Multiselect multiple aria-label="Default select example" placeholder="Port Speed"
-  displayValue="key"
-  onKeyPressFn={function noRefCheck(){}}
-  onRemove={function noRefCheck(){}}
-  onSearch={function noRefCheck(){}}
-  onSelect={function noRefCheck(){}}
-  options={[
-    {
-      cat: 'Group 1',
-      key: '1'
-    },
-    {
-      cat: 'Group 1',
-      key: ' 2'
-    }
-    
-  ]}
-/>
+                <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="Port Speed"
+        placeholder= "Port Speed"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                <Multiselect multiple aria-label="Default select example" placeholder="Port Type"
-  displayValue="key"
-  onKeyPressFn={function noRefCheck(){}}
-  onRemove={function noRefCheck(){}}
-  onSearch={function noRefCheck(){}}
-  onSelect={function noRefCheck(){}}
-  options={[
-   
-  ]}
-/>
+                <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="Port Type"
+        placeholder= "Port Type"
+
+      />
                 </div>
               </div>
               <div className="col-lg-1">
                 <div className="form-group">
-                <Multiselect multiple aria-label="Default select example"  data-live-search="true" placeholder="Port State"
-  displayValue="key"
-  onKeyPressFn={function noRefCheck(){}}
-  onRemove={function noRefCheck(){}}
-  onSearch={function noRefCheck(){}}
-  onSelect={function noRefCheck(){}}
-  options={[
-    {
-      cat: 'Group 1',
-      key: '1'
-    }
-  ]}
-/>
+                <DropdownMultiselect
+        options={["one", "two", "three"]}
+        name="Device"
+        placeholder= "Device"
+
+      />
                  
                 </div>
               </div>
               <div className="col-lg-1 mt-2">
-                <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onClick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onClick={handleSearchClick} value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
               </div>
             </div>
           </div>

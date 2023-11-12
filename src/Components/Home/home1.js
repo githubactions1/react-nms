@@ -1,9 +1,11 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
-// import Chart from 'chart.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import axios from "axios";
 import { useState, useEffect } from "react";
-// import ReactSearchBox from "react-search-box";
+import ReactSearchBox from "react-search-box";
+// import Spinner from "../src/Components/Spinner/spinner.js";
 
 
 
@@ -106,44 +108,70 @@ function Home1() {
         });
     }, []); 
 
-      // const data = [
-      //   {
-      //     key: "john",
-      //     value: "John Doe",
-      //   },
-      //   {
-      //     key: "jane",
-      //     value: "Jane Doe",
-      //   },
-      //   {
-      //     key: "mary",
-      //     value: "Mary Phillips",
-      //   },
-      //   {
-      //     key: "robert",
-      //     value: "Robert",
-      //   },
-      //   {
-      //     key: "karius",
-      //     value: "Karius",
-      //   },
-      // ];
-      // const [searchValue, setSearchValue] = useState("Doe");
+    
 
-      // const handleSearch = (record) => {
-      //   console.log(record);
-      // };
+    // serach bar
+
+
+      const [searchValue, setSearchValue] = useState("");
+
+      useEffect(() => {
+    
+        const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/dashboard/statuses';
+        
+       
+    
+        axios
+          .get(API_URL)
+          .then((response) => {
+            
+            console.log(response.data.data[0].count)
+           
+            
+            setSearchValue (response.data.data[0]);
+            
+    
+          })
+          .catch((error) => {
+            console.error('Error fetching data:', error);
+          });
+      }, []); 
+  
+    
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    
+    const fetchData = async () => {
+      
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 2000);
+    };
+
+    fetchData();
+  }, []);
+
+ 
+       
+
+
   
   
   return (
-    <>
+    // <>
+    //  <div>
+    //   {isLoading ? (
+    //     <Spinner />
+    //   ) : (
       <div id="layout-wrapper">
         <div className="main-content">
           <header id="page-topbar">
             <div className="navbar-header">
               <div className="navbar-brand-box d-flex align-items-left">
                 {" "}
-                <a href="index.html" className="logo">
+                <a href="Home" className="logo">
                   {" "}
                   <i className="feather-arrow-right-circle"></i>{" "}
                   <span> Network Management System </span>{" "}
@@ -179,12 +207,12 @@ function Home1() {
                       <div className="form-group m-0">
                         <div className="input-group">
 
-                          {/* <ReactSearchBox
-                            placeholder="Placeholder"
-                            value={searchValue}
-                            data={data}
-                            callback={handleSearch}
-                          /> */}
+                        <ReactSearchBox
+        placeholder="Placeholder"
+        value="Doe"
+        data={searchValue.hostname}
+        callback={(record) => console.log(record)}
+      />
                           <div className="input-group-append">
                             <button className="btn btn-primary" type="submit">
                               <i className="mdi mdi-magnify"></i>
@@ -387,7 +415,7 @@ function Home1() {
                   <ul className="navbar-nav">
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="index.html">
+                      <a className="nav-link" href="Home">
                         {" "}
                         <i className="mdi mdi-view-dashboard mr-2"></i>Dashboard{" "}
                       </a>{" "}
@@ -396,7 +424,7 @@ function Home1() {
                       {" "}
                       <a
                         className="nav-link dropdown-toggle arrow-none"
-                        href=" "
+                        href="Devices"
                         id="topnav-pages"
                         role="button"
                         data-toggle="dropdown"
@@ -412,7 +440,7 @@ function Home1() {
                         aria-labelledby="topnav-pages"
                       >
                         {" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Devices" className="dropdown-item">
                           <i className="mdi mdi-television-play"></i> All
                           Devices{" "}
                           <span className="badge badge-pill badge-info">3</span>
@@ -421,7 +449,7 @@ function Home1() {
                           {" "}
                           <a
                             className="dropdown-item dropdown-toggle arrow-none"
-                            href=" "
+                            href="Devices"
                             id="topnav-auth"
                             role="button"
                             data-toggle="dropdown"
@@ -1444,7 +1472,14 @@ function Home1() {
           </div>
         </div>
       </div>
-    </>
+     
+       
+
+         
+     
+    //   )}
+    // </div>
+    // </>
   );
 }
 
