@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAccusoft } from '@fortawesome/free-brands-svg-icons'; // Replace with the appropriate icon
+// import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faAccusoft } from '@fortawesome/free-brands-svg-icons'; // Replace with the appropriate icon
 
 
 

@@ -9,11 +9,11 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 // import ReactSearchBox from "react-search-box";
 // import {Search} from 'react-bootstrap-icons';
 // import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-// import InputGroup from 'react-bootstrap/InputGroup';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button';
+// // import InputGroup from 'react-bootstrap/InputGroup';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 
 // import Spinner from "../src/Components/Spinner/spinner.js";
 
@@ -149,19 +149,19 @@ function Home1() {
   
     
 
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
+  // useEffect(() => {
     
-    const fetchData = async () => {
+  //   const fetchData = async () => {
       
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 2000);
-    };
+  //     setTimeout(() => {
+  //       setIsLoading(false);
+  //     }, 2000);
+  //   };
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
  
        
