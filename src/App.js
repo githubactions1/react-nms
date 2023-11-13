@@ -17,7 +17,14 @@ import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
 import DeviceDetails from "../src/Components/DeviceDetails/devicedetails.js";
 import PortsBasic from "../src/Components/PortsBasic/portsbasic.js";
 import Memory from "../src/Components/Memory/memory.js";
+import Processors from "../src/Components/Processors/processors.js";
 import PortOverview from "./Components/PortOverview/portoverview.js";
+import Sensors from "./Components/Sensors/sensors.js";
+import Statuses from "./Components/Statuses/statuses.js";
+
+
+
+
 // import DeviceOverview from "../src/Components/Spinner/spinner.js";
 
 
@@ -43,6 +50,10 @@ function App() {
         <Route exact path="/PortsBasic" element={<PortsBasic />} />
         <Route exact path="/Memory" element={<Memory />} />
         <Route exact path="/PortOverview" element={<PortOverview />} />
+        <Route exact path="/Processors" element={<Processors />} />
+        <Route exact path="/Sensors" element={<Sensors />} />
+        <Route exact path="/Statuses" element={<Statuses />} />
+       
         {/* <Route exact path="/DeviceOverview" element={<DeviceOverview />} /> */}
         <Route path="*" element={<Notfound />} /> 
       </Routes>
