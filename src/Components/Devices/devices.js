@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAccusoft } from '@fortawesome/free-brands-svg-icons'; // Replace with the appropriate icon
+
 
 
 
@@ -38,7 +41,7 @@ function Devices() {
     <header id="page-topbar">
       <div className="navbar-header"> 
        
-        <div className="navbar-brand-box d-flex align-items-left"> <a href="index.html" className="logo"> <i className="feather-arrow-right-circle"></i> <span> Network Management System </span> </a>
+        <div className="navbar-brand-box d-flex align-items-left"> <a href="Home" className="logo"> <i className="feather-arrow-right-circle"></i> <span> Network Management System </span> </a>
           <button type="button" className="btn btn-sm mr-2 font-size-16 d-lg-none header-item waves-effect waves-light" data-toggle="collapse" data-target="#topnav-menu-content"> <i className="fa fa-fw fa-bars"></i> </button>
         </div>
         <div className="d-flex align-items-center">
@@ -155,7 +158,7 @@ function Devices() {
         <nav className="navbar navbar-light navbar-expand-lg topnav-menu">
           <div className="collapse navbar-collapse" id="topnav-menu-content">
             <ul className="navbar-nav">
-              <li className="nav-item"> <a className="nav-link" href="index.html"> <i className="mdi mdi-view-dashboard mr-2"></i>Dashboard </a> </li>
+              <li className="nav-item"> <a className="nav-link" href="Home"> <i className="mdi mdi-view-dashboard mr-2"></i>Dashboard </a> </li>
               <li className="nav-item dropdown"> <a className="nav-link dropdown-toggle arrow-none" href=" " id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="mdi mdi-google-pages mr-2"></i>Devices
                 <div className="arrow-down"></div>
                 </a>
@@ -410,12 +413,12 @@ function Devices() {
                   <tbody>
                   {basicListData.map((row,index) => (
                     <tr key={index}>
-                      <td className="blue"></td>
+                      <td className="faAccusoft"></td>
                       <td className="text-truncate"><i className="fab fa-accusoft font-size-22"></i></td>
-                      <td className="text-truncate"><a href="devices-overview.html" className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"><strong> { row.hostname}</strong></a></td>
-                      <td className="text-truncate">{ row.hardware}</td>
-                      <td className="text-truncate">{ row.os}</td>
-                      <td className="text-truncate">{ row.uptime}</td>
+                      <td className="text-truncate"><a href="devices-overview.html" className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"><strong> { index.hostname}</strong></a></td>
+                      <td className="text-truncate">{ index.hardware}</td>
+                      <td className="text-truncate">{ index.os}</td>
+                      <td className="text-truncate">{ index.uptime}</td>
                     </tr> 
           ))}
                   {/* <tr>

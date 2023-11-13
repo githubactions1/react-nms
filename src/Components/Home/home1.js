@@ -4,7 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import axios from "axios";
 import { useState, useEffect } from "react";
-import ReactSearchBox from "react-search-box";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// import ReactSearchBox from "react-search-box";
+// import {Search} from 'react-bootstrap-icons';
+// import Navbar from 'react-bootstrap/Navbar';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+// import InputGroup from 'react-bootstrap/InputGroup';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 // import Spinner from "../src/Components/Spinner/spinner.js";
 
 
@@ -206,13 +216,7 @@ function Home1() {
                     <form className="p-3">
                       <div className="form-group m-0">
                         <div className="input-group">
-
-                        <ReactSearchBox
-        placeholder="Placeholder"
-        value="Doe"
-        data={searchValue.hostname}
-        callback={(record) => console.log(record)}
-      />
+                        
                           <div className="input-group-append">
                             <button className="btn btn-primary" type="submit">
                               <i className="mdi mdi-magnify"></i>
@@ -669,9 +673,9 @@ function Home1() {
                       <p>
                         <iframe
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.70842737001!2d78.43891958715821!3d17.439260000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90a3794bff07%3A0x1d80c73b7fcc4766!2sGreenlantern%20IT%20Solutions%20Pvt%20Ltd.!5e0!3m2!1sen!2sin!4v1697528551099!5m2!1sen!2sin"
-                          allowfullscreen=""
+                          allowFullScreen=""
                           loading="lazy"
-                          referrerpolicy="no-referrer-when-downgrade"
+                          referrerPolicy="no-referrer-when-downgrade"
                          
                           width="100%"
                           height="120"
@@ -886,7 +890,7 @@ function Home1() {
                   </div>
                 </div>
 
-                <div className="col-xl-4">
+                {/* <div className="col-xl-4">
                   <div className="card">
                     <div className="card-body">
                       <h4 className="card-title">Pie chart</h4>
@@ -920,7 +924,7 @@ function Home1() {
                       <canvas id="barChart"></canvas>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="col-xl-12">
                   <div className="card">
@@ -930,9 +934,9 @@ function Home1() {
                           <p>
                             <iframe
                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.70842737001!2d78.43891958715821!3d17.439260000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90a3794bff07%3A0x1d80c73b7fcc4766!2sGreenlantern%20IT%20Solutions%20Pvt%20Ltd.!5e0!3m2!1sen!2sin!4v1697528551099!5m2!1sen!2sin"
-                              allowfullscreen=""
+                              allowFullScreen=""
                               loading="lazy"
-                              referrerpolicy="no-referrer-when-downgrade"
+                              referrerPolicy="no-referrer-when-downgrade"
                               width="100%"
                               height="150"
                               title=" "
@@ -1451,12 +1455,12 @@ function Home1() {
                   </td>
                 </tr>
                 <tr className="table-danger">
-                  <th scope="col" colspan="5">
+                  <th scope="col" colSpan="5">
                     Eventlog
                   </th>
                 </tr>
                 <tr>
-                  <td className="text-truncate" colspan="3">
+                  <td className="text-truncate" colSpan="3">
                     Mikrotik RouterOS 6.49.7
                     <br />
                     Mikrotik CCR1009-7G-1C-1S+

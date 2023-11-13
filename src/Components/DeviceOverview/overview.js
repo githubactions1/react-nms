@@ -276,7 +276,7 @@ export default function overview() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="text-truncate" colspan="3"><p><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"><img src="assets/images/graph11.png" alt="" className="img-fluid"/></a></p></td>
+                      <td className="text-truncate" colSpan="3"><p><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"><img src="assets/images/graph11.png" alt="" className="img-fluid"/></a></p></td>
                     </tr>
                     <tr className="bg-light">
                       <td className="text-truncate border-top-0"><i className="fas fa-desktop"></i> 11</td>
@@ -285,7 +285,7 @@ export default function overview() {
                       <td className="text-truncate border-top-0"><i className="fas fa-minus-circle text-danger"></i> 10</td>
                     </tr>
                     <tr>
-                      <th className="text-truncate border-top-0" colspan="3"> <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether1</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether2</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether3</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether4</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether5</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether6</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether7</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether8</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether9</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether10</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">lvpn</a> </th>
+                      <th className="text-truncate border-top-0" colSpan="3"> <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether1</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether2</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether3</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether4</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether5</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether6</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether7</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether8</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">Ether9</a>, <a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device">Ether10</a>, <a href=" " className="entity-popup text-nowrap trigger text-danger" data-eid="1" data-etype="device">lvpn</a> </th>
                     </tr>
                   </tbody>
                 </table>
@@ -366,7 +366,7 @@ export default function overview() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="text-truncate" colspan="3"><p><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"><img src="assets/images/graph11.png" alt="" className="img-fluid"/></a></p></td>
+                      <td className="text-truncate" colSpan="3"><p><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"><img src="assets/images/graph11.png" alt="" className="img-fluid"/></a></p></td>
                     </tr>
                     <tr>
                       <td className="text-truncate"><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"> <strong>Processor</strong></a></td>
@@ -388,7 +388,7 @@ export default function overview() {
                 {/* <!-- Table with hoverable rows --> */}
                 <table className="table table-hover">
                   <tbody>
-                  <th className="text-truncate border-top-0 font-size-15 bg-light" colspan="3"><a href=" "><i className="fas fa-desktop"></i> Memory</a></th>
+                  <th className="text-truncate border-top-0 font-size-15 bg-light" colSpan="3"><a href=" "><i className="fas fa-desktop"></i> Memory</a></th>
                   <tr>
                     <td className="blue"></td>
                     <td className="text-truncate border-top-0"><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"> <strong>main memory</strong></a></td>
@@ -411,7 +411,7 @@ export default function overview() {
                 {/* <!-- Table with hoverable rows --> */}
                 <table className="table table-hover">
                   <tbody>
-                  <th className="text-truncate border-top-0 font-size-15 bg-light" colspan="3"><a href=" "><i className="fas fa-database"></i> Storage</a></th>
+                  <th className="text-truncate border-top-0 font-size-15 bg-light" colSpan="3"><a href=" "><i className="fas fa-database"></i> Storage</a></th>
                   <tr>
                     <td className="blue"></td>
                     <td className="text-truncate border-top-0"><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"> <strong>system disk</strong></a></td>
@@ -434,7 +434,7 @@ export default function overview() {
                 {/* <!-- Table with hoverable rows --> */}
                 <table className="table table-hover">
                   <tbody>
-                  <th className="text-truncate border-top-0 font-size-15 bg-light" colspan="3"><a href=" "><i className="fas fa-industry"></i> Status Indicators</a></th>
+                  <th className="text-truncate border-top-0 font-size-15 bg-light" colSpan="3"><a href=" "><i className="fas fa-industry"></i> Status Indicators</a></th>
                   <tr>
                     <td className="blue"></td>
                     <td className="text-truncate border-top-0"><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"> <strong>Ether10 PoE state (ether10)</strong></a></td>
@@ -457,7 +457,7 @@ export default function overview() {
                 {/* <!-- Table with hoverable rows --> */}
                 <table className="table table-hover">
                   <tbody>
-                  <th className="text-truncate border-top-0 font-size-15 bg-light" colspan="3"><a href=" "><i className="fas fa-temperature-high"></i> Temperature</a></th>
+                  <th className="text-truncate border-top-0 font-size-15 bg-light" colSpan="3"><a href=" "><i className="fas fa-temperature-high"></i> Temperature</a></th>
                   <tr>
                     <td className="blue"></td>
                     <td className="text-truncate border-top-0"><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"> <strong>System</strong></a></td>
@@ -476,7 +476,7 @@ export default function overview() {
                 {/* <!-- Table with hoverable rows --> */}
                 <table className="table table-hover">
                   <tbody>
-                  <th className="text-truncate border-top-0 font-size-15 bg-light" colspan="3"><a href=" "><i className="fas fa-house-damage"></i> Voltage</a></th>
+                  <th className="text-truncate border-top-0 font-size-15 bg-light" colSpan="3"><a href=" "><i className="fas fa-house-damage"></i> Voltage</a></th>
                   <tr>
                     <td className="blue"></td>
                     <td className="text-truncate border-top-0"><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"> <strong>System</strong></a></td>
@@ -495,7 +495,7 @@ export default function overview() {
                 {/* <!-- Table with hoverable rows --> */}
                 <table className="table table-hover">
                   <tbody>
-                  <th className="text-truncate border-top-0 font-size-15 bg-light" colspan="3"><a href=" "><i className="fas fa-recycle"></i> Frequency</a></th>
+                  <th className="text-truncate border-top-0 font-size-15 bg-light" colSpan="3"><a href=" "><i className="fas fa-recycle"></i> Frequency</a></th>
                   <tr>
                     <td className="blue"></td>
                     <td className="text-truncate border-top-0"><a href=" " className="entity-popup text-nowrap trigger" data-eid="1" data-etype="device"> <strong>Processor</strong></a></td>
