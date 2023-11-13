@@ -69,7 +69,7 @@ function Home1() {
     }, []); 
 
 
-    const [sensorsData, setsensorsData] = useState({count:0});
+    const [sensorsData, setSensorsData] = useState({count:0});
   
     useEffect(() => {
     
@@ -84,7 +84,7 @@ function Home1() {
           console.log(response.data.data[0].count)
          
           
-          setsensorsData (response.data.data[0]);
+          setSensorsData (response.data.data[0]);
           
   
         })
@@ -120,7 +120,7 @@ function Home1() {
 
     
 
-    // serach bar
+  
 
 
       const [searchValue, setSearchValue] = useState("");
@@ -147,34 +147,9 @@ function Home1() {
           });
       }, []); 
   
-    
 
-  // const [isLoading, setIsLoading] = useState(true);
-
-  // useEffect(() => {
-    
-  //   const fetchData = async () => {
-      
-  //     setTimeout(() => {
-  //       setIsLoading(false);
-  //     }, 2000);
-  //   };
-
-  //   fetchData();
-  // }, []);
-
- 
-       
-
-
-  
-  
   return (
-    // <>
-    //  <div>
-    //   {isLoading ? (
-    //     <Spinner />
-    //   ) : (
+    
       <div id="layout-wrapper">
         <div className="main-content">
           <header id="page-topbar">
@@ -190,7 +165,7 @@ function Home1() {
                   type="button"
                   className="btn btn-sm mr-2 font-size-16 d-lg-none header-item waves-effect waves-light"
                   data-toggle="collapse"
-                  data-target="#topnav-menu-content"
+                  data-target="topnav-menu-content"
                 >
                   {" "}
                   <i className="fa fa-fw fa-bars"></i>{" "}
@@ -205,7 +180,6 @@ function Home1() {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    
                   >
                     {" "}
                     <i className="mdi mdi-magnify"></i>{" "}
@@ -348,7 +322,7 @@ function Home1() {
                     {" "}
                     <img
                       className="rounded-circle header-profile-user"
-                      src="assets/images/users/avatar-3.jpg"
+                      src="../../assets/images/users/avatar-3.jpg"
                       alt="Header Avatar"
                     />{" "}
                     <span className="d-none d-sm-inline-block ml-1">

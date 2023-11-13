@@ -153,7 +153,7 @@
 
             if (typeof options.locale.customRangeLabel === 'string'){
                 //Support unicode chars in the custom range name.
-                var elem = document.createElement('textarea');
+                var elem = document.createelement('textarea');
                 elem.innerHTML = options.locale.customRangeLabel;
                 var rangeHtml = elem.value;
                 this.locale.customRangeLabel = rangeHtml;
@@ -341,7 +341,7 @@
                     continue;
 
                 //Support unicode chars in the range names.
-                var elem = document.createElement('textarea');
+                var elem = document.createelement('textarea');
                 elem.innerHTML = range;
                 var rangeHtml = elem.value;
 
