@@ -1389,13 +1389,6 @@ function Home1() {
           </footer>
         </div>
 
-      
-        {/* <!-- Include jQuery --> */}
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-{/* <!-- Include Bootstrap JavaScript --> */}
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
         <div id="pop-up">
           <div className="table-responsive">
             <table

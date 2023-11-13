@@ -307,37 +307,37 @@ const Memory = () => {
 {/* <!-- END layout-wrapper -->  */}
 
 {/* <!-- jQuery  -->  */}
-<script src="assets/js/jquery.min.js"></script> 
-<script src="assets/js/bootstrap.bundle.min.js"></script> 
-<script src="assets/js/waves.js"></script> 
-<script src="assets/js/simplebar.min.js"></script> 
+<script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script> 
+<script src="%PUBLIC_URL%/assets/js/bootstrap.bundle.min.js"></script> 
+<script src="%PUBLIC_URL%/assets/js/waves.js"></script> 
+<script src="%PUBLIC_URL%/assets/js/simplebar.min.js"></script> 
 
 {/* <!-- Morris Js-->  */}
-<script src="../plugins/morris-js/morris.min.js"></script> 
+<script src="%PUBLIC_URL%/plugins/morris-js/morris.min.js"></script> 
 {/* <!-- Raphael Js-->  */}
-<script src="../plugins/raphael/raphael.min.js"></script> 
+<script src="%PUBLIC_URL%/plugins/raphael/raphael.min.js"></script> 
 
 {/* <!-- Morris Custom Js-->  */}
-<script src="assets/pages/dashboard-demo.js"></script> 
+<script src="%PUBLIC_URL%/assets/pages/dashboard-demo.js"></script> 
 
 {/* <!-- App js -->  */}
-<script src="assets/js/theme.js"></script> 
+<script src="%PUBLIC_URL%/assets/js/theme.js"></script> 
 {/* <!-- Script Tooltip js -->  */}
-<script src="assets/js/script_tooltip.js"></script> 
+<script src="%PUBLIC_URL%/assets/js/script_tooltip.js"></script> 
 
 {/* <!-- Morris Custom Js-->  */}
-<script src="assets/pages/morris-chart-demo.js"></script> 
+<script src="%PUBLIC_URL%/assets/pages/morris-chart-demo.js"></script> 
 
 {/* <!-- Chart Js-->  */}
-<script src="../plugins/chart-js/chart.min.js"></script> 
+<script src="%PUBLIC_URL%/plugins/chart-js/chart.min.js"></script> 
 
 {/* <!-- Multi Select dropdown Js-->  */}
-<script src="assets/js/bootstrap-select.min.js"></script> 
+<script src="%PUBLIC_URL%/assets/js/bootstrap-select.min.js"></script> 
 
 {/* <!-- Plugins js -->  */}
-<script src="assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
-<script src="assets/plugins/switchery/switchery.min.js"></script> 
-<script src="assets/pages/advanced-plugins-demo.js"></script> 
+<script src="%PUBLIC_URL%/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
+<script src="%PUBLIC_URL%/assets/plugins/switchery/switchery.min.js"></script> 
+<script src="%PUBLIC_URL%/assets/pages/advanced-plugins-demo.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
 
 {/* <!-- HIDDEN / POP-UP DIV --> */}

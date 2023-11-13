@@ -5,8 +5,10 @@
 
 import LoginForm from "./Components/LoginForm/login.js"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import LockScreen from "../src/Components/LockScreen/lockscreen.js";
 import Home1 from './Components/Home/home1.js';
+import Memory from "../src/Components/Memory/memory.js";
+import LockScreen from "../src/Components/LockScreen/lockscreen.js";
+
 import RecoverPassword from './Components/RecoverPassword/recover.js';
 import Register from './Components/Register/register.js';
 import Notfound from './Components/Notfound/error.js';
@@ -16,7 +18,7 @@ import DevicesPollingPerformance from './Components/DevicesPollingPerformance/po
 import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
 import DeviceDetails from "../src/Components/DeviceDetails/devicedetails.js";
 import PortsBasic from "../src/Components/PortsBasic/portsbasic.js";
-import Memory from "../src/Components/Memory/memory.js";
+// import DeviceOverview from "../src/Components/DeviceOverview/DeviceOverview.js";
 import Processors from "../src/Components/Processors/processors.js";
 import PortOverview from "./Components/PortOverview/portoverview.js";
 import Sensors from "./Components/Sensors/sensors.js";
@@ -25,7 +27,7 @@ import Statuses from "./Components/Statuses/statuses.js";
 
 
 
-// import DeviceOverview from "../src/Components/Spinner/spinner.js";
+import DeviceOverview from "../src/Components/DeviceOverview/overview.js";
 
 
 
@@ -37,7 +39,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<LoginForm />} />
+      <Route exact path="/Home" element={<Home1 />} />
+      <Route exact path="/" element={<LoginForm />} />
+      <Route exact path="/Memory" element={<Memory />} />
+       <Route exact path="/" element={<LoginForm />} />
         <Route exact path="/Home" element={<Home1 />} />
         <Route exact path="/LockScreen" element={<LockScreen />} />
         <Route exact path="/RecoverPassword" element={<RecoverPassword />} />
@@ -54,8 +59,8 @@ function App() {
         <Route exact path="/Sensors" element={<Sensors />} />
         <Route exact path="/Statuses" element={<Statuses />} />
        
-        {/* <Route exact path="/DeviceOverview" element={<DeviceOverview />} /> */}
-        <Route path="*" element={<Notfound />} /> 
+        <Route exact path="/DeviceOverview" element={<DeviceOverview/>} /> 
+        <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>
   );
