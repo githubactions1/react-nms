@@ -48,7 +48,7 @@ function App() {
         <Route exact path="/RecoverPassword" element={<RecoverPassword />} />
         <Route exact path="/Register" element={<Register />} />
         <Route exact path="/Ports" element={<Ports />} />
-        <Route exact path="/Devices1" element={<Devices1 />} />
+        <Route exact path="/Devices1" element={<Devices1/>} />
         <Route exact path="/DevicesPollingPerformance" element={<DevicesPollingPerformance />} />
         <Route exact path="/DeviceStatus" element={<DeviceStatus />} />
         <Route exact path="/DeviceDetails" element={<DeviceDetails />} />

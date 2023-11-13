@@ -66,7 +66,7 @@ function Devices1() {
                   <div class="col-auto"> <a href="#!" class="small"> View All</a> </div>
                 </div>
               </div>
-              <div data-simplebar style={{maxheight: "230px"}}> <a href="" class="text-reset notification-item">
+              <div data-simplebar style={{maxheight: "230px"}}> <a href=" " class="text-reset notification-item">
                 <div class="media"> <img src="assets/images/users/avatar-2.jpg"
                                                     class="mr-3 rounded-circle avatar-xs" alt="user-pic"/>
                   <div class="media-body">
@@ -75,7 +75,7 @@ function Devices1() {
                     <p class="font-size-12 mb-0 text-muted"><i class="mdi mdi-clock-outline"></i> 2 min ago</p>
                   </div>
                 </div>
-                </a> <a href="" class="text-reset notification-item">
+                </a> <a href=" " class="text-reset notification-item">
                 <div class="media">
                   <div class="avatar-xs mr-3"> <span class="avatar-title bg-success rounded-circle"> <i class="mdi mdi-cloud-download-outline"></i> </span> </div>
                   <div class="media-body">
@@ -84,7 +84,7 @@ function Devices1() {
                     <p class="font-size-12 mb-0 text-muted"><i class="mdi mdi-clock-outline"></i> 4 hours ago</p>
                   </div>
                 </div>
-                </a> <a href="" class="text-reset notification-item">
+                </a> <a href=" " class="text-reset notification-item">
                 <div class="media"> <img src="assets/images/users/avatar-3.jpg"
                                                     class="mr-3 rounded-circle avatar-xs" alt="user-pic"/>
                   <div class="media-body">
@@ -94,14 +94,14 @@ function Devices1() {
                   </div>
                 </div>
                 </a> </div>
-              <div class="p-2 border-top"> <a class="btn btn-sm btn-light btn-block text-center" href="javascript:void(0)"> <i class="mdi mdi-arrow-down-circle mr-1"></i> Load More.. </a> </div>
+              <div class="p-2 border-top"> <a class="btn btn-sm btn-light btn-block text-center" href="javascript void(0)"> <i class="mdi mdi-arrow-down-circle mr-1"></i> Load More.. </a> </div>
             </div>
           </div>
           <div class="dropdown d-inline-block ml-2">
             <button type="button" class="btn header-item waves-effect waves-light" id="page-header-user-dropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-3.jpg"
                                         alt="Header Avatar"/> <span class="d-none d-sm-inline-block ml-1">Jamie D.</span> <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i> </button>
-            <div class="dropdown-menu dropdown-menu-right"> <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)"> <span>Inbox</span> <span> <span class="badge badge-pill badge-info">3</span> </span> </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)"> <span>Profile</span> <span> <span class="badge badge-pill badge-warning">1</span> </span> </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)"> Settings </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)"> <span>Lock Account</span> </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)"> <span>Log Out</span> </a> </div>
+            <div class="dropdown-menu dropdown-menu-right"> <a class="dropdown-item d-flex align-items-center justify-content-between" href=" "> <span>Inbox</span> <span> <span class="badge badge-pill badge-info">3</span> </span> </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href=" "> <span>Profile</span> <span> <span class="badge badge-pill badge-warning">1</span> </span> </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href=" "> Settings </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href=" "> <span>Lock Account</span> </a> <a class="dropdown-item d-flex align-items-center justify-content-between" href=" "> <span>Log Out</span> </a> </div>
           </div>
         </div>
       </div>
@@ -111,27 +111,27 @@ function Devices1() {
           <div class="collapse navbar-collapse" id="topnav-menu-content">
             <ul class="navbar-nav">
               <li class="nav-item"> <a class="nav-link" href="Home"> <i class="mdi mdi-view-dashboard mr-2"></i>Dashboard </a> </li>
-              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle arrow-none" href="javascript:void(0)" id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-google-pages mr-2"></i>Devices
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle arrow-none" href=" " id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-google-pages mr-2"></i>Devices
                 <div class="arrow-down"></div>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="topnav-pages"> <a href="devices-basic.html" class="dropdown-item"><i class="mdi mdi-television-play"></i> All Devices <span class="badge badge-pill badge-info">3</span></a>
                   <div class="dropdown"> <a class="dropdown-item dropdown-toggle arrow-none" href="Devices" id="topnav-auth" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-office-building"></i> Locations
                     <div class="arrow-down"></div>
-                    </a><div class="dropdown-menu" aria-labelledby="topnav-auth"> <a href="javascript:void(0)" class="dropdown-item"><i class="mdi mdi-currency-inr"></i> INDIA</a> <a href="javascript:void(0)" class="dropdown-item"><i class="mdi mdi-currency-usd"></i> USA</a> <a href="javascript:void(0)" class="dropdown-item"><i class="mdi mdi-currency-gbp"></i> UK</a> </div>
+                    </a><div class="dropdown-menu" aria-labelledby="topnav-auth"> <a href="  " class="dropdown-item"><i class="mdi mdi-currency-inr"></i> INDIA</a> <a href=" " class="dropdown-item"><i class="mdi mdi-currency-usd"></i> USA</a> <a href=" " class="dropdown-item"><i class="mdi mdi-currency-gbp"></i> UK</a> </div>
                   </div>
                   <a href="severs.html" class="dropdown-item"><i class="mdi mdi-server-network"></i> Severs <span class="badge badge-pill badge-success">2</span></a> <a href="network.html" class="dropdown-item"><i class="mdi mdi-access-point-network"></i> Network <span class="badge badge-pill badge-primary">1</span></a> <a href="down.html" class="dropdown-item"><i class="mdi mdi-arrow-down-bold-circle"></i> Down <span class="badge badge-pill badge-danger">3</span></a> </div>
               </li>
-              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle arrow-none" href="javascript:void(0)" id="topnav-more" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fab fa-hubspot mr-2"></i>Ports
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle arrow-none" href=" " id="topnav-more" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fab fa-hubspot mr-2"></i>Ports
                 <div class="arrow-down"></div>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="topnav-more"> <a href="PortsBasic" class="dropdown-item"><i class="fas fa-desktop"></i> All Ports <span class="badge badge-pill badge-danger">37</span></a> <a href="vlans.html" class="dropdown-item"><i class="feather-cpu"></i> VLANs</a> <a href="neighbours.html" class="dropdown-item"><i class="feather-grid"></i> Neighbours <span class="badge badge-pill badge-primary">20</span></a> <a href="customers.html" class="dropdown-item"><i class="fas fa-user-friends"></i> Customers </a> <a href="transit.html" class="dropdown-item"><i class="feather-package"></i> Transit </a> <a href="peering.html" class="dropdown-item"><i class="feather-target"></i> Peering </a> <a href="peering-transit.html" class="dropdown-item"><i class="feather-zap"></i> Peering &amp; Transit </a>
-                  <div class="dropdown"> <a class="dropdown-item dropdown-toggle arrow-none" href="javascript:void(0)" id="topnav-tables" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-unlink"></i> Status Breakdown
+                  <div class="dropdown"> <a class="dropdown-item dropdown-toggle arrow-none" href=" " id="topnav-tables" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-unlink"></i> Status Breakdown
                     <div class="arrow-down"></div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="topnav-tables"> <a href="down.html" class="dropdown-item"><i class="fas fa-download"></i> Down <span class="badge badge-pill badge-danger">20</span></a> <a href="up.html" class="dropdown-item"><i class="fas fa-upload"></i> Up <span class="badge badge-pill badge-success">10</span></a> </div>
                   </div>
                 </div>
-              </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-google-pages mr-2"></i>Health
+              </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle arrow-none" href=" " id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-google-pages mr-2"></i>Health
                 <div class="arrow-down"></div>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="topnav-pages"> <a href="processors.html" class="dropdown-item"><i class="fas fa-desktop"></i> Processors</a> <a href="memory.html" class="dropdown-item"><i class="feather-cpu"></i> Memory</a> <a href="storage.html" class="dropdown-item"><i class="fas fa-database"></i> Storage</a> <a href="status.html" class="dropdown-item"><i class="feather-clock"></i> Status</a> <a href="temperature.html" class="dropdown-item"><i class="fas fa-temperature-high"></i> Temperature</a> <a href="fanspeed.html" class="dropdown-item"><i class="feather-send"></i> Fanspeed</a> <a href="current.html" class="dropdown-item"><i class="feather-hard-drive"></i> Current</a> <a href="voltage.html" class="dropdown-item"><i class="fas fa-house-damage"></i> Voltage</a> <a href="power.html" class="dropdown-item"><i class="mdi mdi-solar-power"></i> Power</a> <a href="frequency.html" class="dropdown-item"><i class="mdi mdi-finance"></i> Frequency</a> </div>
@@ -153,12 +153,12 @@ function Devices1() {
               </div>
               <div class="col-lg-2">
                 <div class="form-group">
-                  <select class="selectpicker" >
+                  {/* <select class="selectpicker" >
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
                   <DropdownMultiselect multiple aria-label="Default select example" data-live-search="true" placeholder="Select Locations"
         options={["one", "two", "three"]}
         name="Select Locations"
@@ -213,12 +213,12 @@ function Devices1() {
               </div>
               <div class="col-lg-2">
                 <div class="form-group">
-                  <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Groups">
+                  {/* <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Groups">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
                   <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Groups"
         options={["one", "two", "three"]}
         name="Select Groups"
@@ -317,12 +317,12 @@ function Devices1() {
               </div>
               <div class="col-lg-2">
                 <div class="form-group">
-                  <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Distro">
+                  {/* <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Distro">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
                   <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Distro"
         options={["one", "two", "three"]}
         name="Hostname"
@@ -348,7 +348,7 @@ function Devices1() {
           <div class="col-lg-12">
             <div class="card">
               <div class="card-body">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent"> <a class="navbar-brand" href="#">Devices</a>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent"> <a class="navbar-brand" href=" ">Devices</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                   <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav">
@@ -356,34 +356,34 @@ function Devices1() {
                       <li class="nav-item"><a class="nav-link" href="devices-details.html"> Details </a></li>
                       <li class="nav-item"><a class="nav-link" href="devices-status.html"> Status </a></li>
                       <li class="nav-item"><a class="nav-link" href="devices-pollig-performance.html"> Pollig Performance </a></li>
-                      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Graphs
+                      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href=" " data-bs-toggle="dropdown"> Graphs
                         <div class="arrow-down"></div>
                         </a>
                         <ul class="dropdown-menu scrollspy-example">
                           <li><a class="dropdown-item" href=" ">Device Availability</a></li>
                           <li><a class="dropdown-item" href=" ">Traffic</a></li>
-                          <li><a class="dropdown-item" href="#">Active AAA Sessions</a></li>
-                          <li><a class="dropdown-item" href="#">Current</a></li>
-                          <li><a class="dropdown-item" href="#">DHCP Leases</a></li>
-                          <li><a class="dropdown-item" href="#">Fanspeed</a></li>
-                          <li><a class="dropdown-item" href="#">Frequency</a></li>
-                          <li><a class="dropdown-item" href="#">Memory Usage</a></li>
-                          <li><a class="dropdown-item" href="#">Ping Response</a></li>
-                          <li><a class="dropdown-item" href="#">SNMP Response</a></li>
-                          <li><a class="dropdown-item" href="#">Poller Duration</a></li>
-                          <li><a class="dropdown-item" href="#">Poller MySQL Operations</a></li>
-                          <li><a class="dropdown-item" href="#">Poller MySQL Times</a></li>
-                          <li><a class="dropdown-item" href="#">Poller Memory usage</a></li>
-                          <li><a class="dropdown-item" href="#">Poller SNMP Requests</a></li>
-                          <li><a class="dropdown-item" href="#">Poller SNMP Errors</a></li>
-                          <li><a class="dropdown-item" href="#">Poller SNMP Errors Times</a></li>
-                          <li><a class="dropdown-item" href="#">Poller SNMP Times</a></li>
-                          <li><a class="dropdown-item" href="#">Power</a></li>
-                          <li><a class="dropdown-item" href="#">Processors</a></li>
-                          <li><a class="dropdown-item" href="#">Filesystem Usage</a></li>
-                          <li><a class="dropdown-item" href="#">Temperature</a></li>
-                          <li><a class="dropdown-item" href="#">Device Uptime</a></li>
-                          <li><a class="dropdown-item" href="#">Voltage</a></li>
+                          <li><a class="dropdown-item" href=" ">Active AAA Sessions</a></li>
+                          <li><a class="dropdown-item" href=" ">Current</a></li>
+                          <li><a class="dropdown-item" href=" ">DHCP Leases</a></li>
+                          <li><a class="dropdown-item" href=" ">Fanspeed</a></li>
+                          <li><a class="dropdown-item" href=" ">Frequency</a></li>
+                          <li><a class="dropdown-item" href=" ">Memory Usage</a></li>
+                          <li><a class="dropdown-item" href=" ">Ping Response</a></li>
+                          <li><a class="dropdown-item" href=" ">SNMP Response</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller Duration</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller MySQL Operations</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller MySQL Times</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller Memory usage</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller SNMP Requests</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller SNMP Errors</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller SNMP Errors Times</a></li>
+                          <li><a class="dropdown-item" href=" ">Poller SNMP Times</a></li>
+                          <li><a class="dropdown-item" href=" ">Power</a></li>
+                          <li><a class="dropdown-item" href=" ">Processors</a></li>
+                          <li><a class="dropdown-item" href=" ">Filesystem Usage</a></li>
+                          <li><a class="dropdown-item" href=" ">Temperature</a></li>
+                          <li><a class="dropdown-item" href=" ">Device Uptime</a></li>
+                          <li><a class="dropdown-item" href=" ">Voltage</a></li>
                         </ul>
                       </li>
                     </ul>
