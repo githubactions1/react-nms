@@ -205,6 +205,7 @@ function Home1() {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
+                    
                   >
                     {" "}
                     <i className="mdi mdi-magnify"></i>{" "}

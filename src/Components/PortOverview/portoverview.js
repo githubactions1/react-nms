@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'chart.js';
+// import Chart from 'chart.js';
 import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';

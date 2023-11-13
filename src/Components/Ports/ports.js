@@ -3,35 +3,35 @@ import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
-import { useState, useEffect } from "react";
-import axios from "axios";
+// import { useState, useEffect } from "react";
+// import axios from "axios";
 
 
 
 function Ports() {
 
-  const [dropDownData, setDropDownData] = useState({ count: 0 });
+  // const [dropDownData, setDropDownData] = useState({ count: 0 });
 
-  useEffect(() => {
-    const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/devices/dropdownlist';
+  // useEffect(() => {
+  //   const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/devices/dropdownlist';
 
-    axios
-      .get(API_URL)
-      .then((response) => {
+  //   axios
+  //     .get(API_URL)
+  //     .then((response) => {
         
-          setDropDownData(response);
+  //         setDropDownData(response);
      
-       })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
+  //      })
+  //     .catch((error) => {
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }, []);
 
-  const handleSearchClick = () => {
-    // Implement the functionality you want to execute on button click
-    console.log("Search button clicked!");
-    // ... other code
-  };
+  // const handleSearchClick = () => {
+  //   // Implement the functionality you want to execute on button click
+  //   console.log("Search button clicked!");
+  //   // ... other code
+  // };
 
 
 
@@ -266,7 +266,7 @@ function Ports() {
                 </div>
               </div>
               <div className="col-lg-1 mt-2">
-                <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap" onClick={handleSearchClick} value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                <button id="search" name="search" type="button" className="btn btn-light pull-right text-nowrap"  value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
               </div>
             </div>
           </div>
