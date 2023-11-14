@@ -9,7 +9,7 @@ import Notfound from './Components/Notfound/error';
 import Ports from './Components/Ports/ports';
 import Devices1 from './Components/Devices/devices1';
 import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling';
-import DeviceStatus from './Components/DeviceStatus/DeviceStatus';
+import DeviceStatus from './Components/DeviceStatus/deviceStatus';
 import DeviceDetails from "./Components/DeviceDetails/deviceDetails";
 import PortsBasic from "./Components/PortsBasic/portsBasic";
 import Processors from "./Components/Processors/processors";

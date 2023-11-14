@@ -1,7 +1,7 @@
 import React from "react";
 import "../../"
 
-function DeviceStatus() {
+function deviceStatus() {
   return (
     <>
       <div id="layout-wrapper">
@@ -1230,4 +1230,4 @@ function DeviceStatus() {
   );
 }
 
-export default DeviceStatus;
+export default deviceStatus;
