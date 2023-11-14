@@ -1,16 +1,12 @@
 /*
- Template Name: Xacton -  Admin & Dashboard Template
+ Template Name: Network Management System -  Admin & Dashboard Template
  Author: Myra Studio
  File: Advanced Plugins
 */
 
 
 // Autonumeric
-
-
-
-
-jQuery (function($) {
+jQuery(function($) {
   $('.autonumber').autoNumeric('init');
 });
 
@@ -129,4 +125,3 @@ $('[data-toggle="date-picker-range"]').each(function (idx, obj) {
             $(target).html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
     });
 });
-

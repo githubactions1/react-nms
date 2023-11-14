@@ -1,5 +1,5 @@
 /**
- * Theme: Xacton -  Admin & Dashboard Template
+ * Theme: Network Management System -  Admin & Dashboard Template
  * Author: Myra Studio
  * File: Main Js
  */

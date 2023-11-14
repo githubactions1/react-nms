@@ -1396,5 +1396,10 @@ div#pop-up {
 .navbar {
   padding: 0rem;
 }
-
+.progress {
+	background: #2dce16;
+}
+.progress-bar {
+	background: #127804;
+}
 /*# sourceMappingURL=theme.min.css.map */

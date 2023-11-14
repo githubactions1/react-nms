@@ -216,7 +216,7 @@
             }
 
             // Put element class and style to the specified parent
-            var wrapper       = document.createelement('i');
+            var wrapper       = document.createElement('i');
             wrapper.className = element.className + ' waves-input-wrapper';
             element.className = 'waves-button-input';
 
@@ -245,7 +245,7 @@
             }
 
             // Put element as child
-            var wrapper  = document.createelement('i');
+            var wrapper  = document.createElement('i');
             parent.replaceChild(wrapper, element);
             wrapper.appendChild(element);
 

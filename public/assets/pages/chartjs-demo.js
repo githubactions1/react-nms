@@ -1,5 +1,5 @@
 // /*
-//  Template Name: Xacton - Admin & Dashboard Template
+//  Template Name: Network Management System - Admin & Dashboard Template
 //  Author: Myra Studio
 //  File: Chart Js
 // */
@@ -104,7 +104,7 @@
 //         },
 //         stepsize: 1
 //       };
-//       var lineChart = new Chart(lineChartCanvas, {
+//       var lineChart = new (lineChartCanvas, {
 //         type: 'line',
 //         data: data,
 //         options: options

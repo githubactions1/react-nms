@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import { useState, useEffect } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+// import '@fortawesome/fontawesome-svg-core/index.css';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 // import ReactSearchBox from "react-search-box";
 // import {Search} from 'react-bootstrap-icons';
