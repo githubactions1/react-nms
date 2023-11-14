@@ -1,4 +1,5 @@
 import React from 'react'
+import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 
 const processors = () => {
   return (
@@ -127,21 +128,29 @@ const processors = () => {
             <div className="row">
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device">
                     <option value="1">175.101.18.21</option>
                     <option value="2">175.101.18.18</option>
                     <option value="3">175.101.18.19</option>
                     <option value="4">175.101.18.20</option>
                     <option value="5">175.101.18.21</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device"
+        options={["175.101.18.21", "175.101.18.18", "175.101.18.19","175.101.18.20"]}
+        name="Device"
+       
+        
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Physical className">
-                    <option value="1">Device</option>
-                    <option value="2">Port</option>
-                  </select>
+                <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Physical Class"
+        options={["Device", "Port"]}
+        name="Physical Class"
+       
+        
+      />
                 </div>
               </div>
               <div className="col-lg-2">
@@ -151,6 +160,12 @@ const processors = () => {
                     <option value="2">ignore</option>
                     <option value="3">Ok</option>
                   </select>
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event"
+        options={["alert", "ignore","ok"]}
+        name="Status Event"
+       
+        
+      />
                 </div>
               </div>
               <div className="col-lg-2">
@@ -160,6 +175,12 @@ const processors = () => {
                     <option value="2">true</option>
                     <option value="3">Waiting for load</option>
                   </select>
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event"
+        options={["false", "true","Waiting for load"]}
+        name="Status Event"
+       
+        
+      />
                 </div>
               </div>
               <div className="col-lg-2">

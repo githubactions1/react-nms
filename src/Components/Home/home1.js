@@ -500,38 +500,38 @@ function Home1() {
                         aria-labelledby="topnav-more"
                       >
                         {" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Ports" className="dropdown-item">
                           <i className="fas fa-desktop"></i> All Ports{" "}
                           <span className="badge badge-pill badge-danger">
                             37
                           </span>
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="VLANs" className="dropdown-item">
                           <i className="feather-cpu"></i> VLANs
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Neighbours" className="dropdown-item">
                           <i className="feather-grid"></i> Neighbours{" "}
                           <span className="badge badge-pill badge-primary">
                             20
                           </span>
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Customers" className="dropdown-item">
                           <i className="fas fa-user-friends"></i> Customers{" "}
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Transit" className="dropdown-item">
                           <i className="feather-package"></i> Transit{" "}
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Peering" className="dropdown-item">
                           <i className="feather-target"></i> Peering{" "}
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Peering &amp; Transit" className="dropdown-item">
                           <i className="feather-zap"></i> Peering &amp; Transit{" "}
                         </a>
                         <div className="dropdown">
                           {" "}
                           <a
                             className="dropdown-item dropdown-toggle arrow-none"
-                            href=" "
+                            href=""
                             id="topnav-tables"
                             role="button"
                             data-toggle="dropdown"
@@ -586,34 +586,34 @@ function Home1() {
                         aria-labelledby="topnav-pages"
                       >
                         {" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Processors" className="dropdown-item">
                           Processors
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Memory" className="dropdown-item">
                           Memory
                         </a>{" "}
                         <a href=" " className="dropdown-item">
                           Storage
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Statuses" className="dropdown-item">
                           Status
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Temperature" className="dropdown-item">
                           Temperature
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Fanspeed" className="dropdown-item">
                           Fanspeed
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Current" className="dropdown-item">
                           Current
                         </a>
-                        <a href=" " className="dropdown-item">
+                        <a href="Voltage" className="dropdown-item">
                           Voltage
                         </a>{" "}
-                        <a href=" " className="dropdown-item">
+                        <a href="Power" className="dropdown-item">
                           Power
                         </a>
-                        <a href=" " className="dropdown-item">
+                        <a href="Frequency" className="dropdown-item">
                           Frequency
                         </a>{" "}
                       </div>
@@ -679,7 +679,7 @@ function Home1() {
                           <h6>Total</h6>
                           <br />
                           <p>
-                            <a href=" ">{apiData.count}</a>
+                            <a href="Devices1">{apiData.count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -687,7 +687,7 @@ function Home1() {
                           <h6>Up</h6>
                           <br />
                           <p>
-                            <a href=" "> {apiData.Down_Count}</a>
+                            <a href="Devices1"> {apiData.Down_Count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -695,7 +695,7 @@ function Home1() {
                           <h6> Alert</h6>
                           <br />
                           <p>
-                            <a href=" "> {apiData.Up_Count}</a>
+                            <a href="Devices1"> {apiData.Up_Count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -703,7 +703,7 @@ function Home1() {
                           <h6> Ignored (Dev)</h6>
                           <br />
                           <p>
-                            <a href=" ">{apiData.ignore_count}</a>
+                            <a href="Devices1">{apiData.ignore_count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -711,7 +711,7 @@ function Home1() {
                           <h6> Disabled / Shut</h6>
                           <br />
                           <p>
-                            <a href=" ">{apiData.disabled_count}</a>
+                            <a href="Devices1">{apiData.disabled_count}</a>
                           </p>
                         </div>
                       </div>
@@ -733,28 +733,28 @@ function Home1() {
                           <h6>Total</h6>
                           <br />
                           <p>
-                            <a href=" ">{portData.count}</a>
+                            <a href="Ports">{portData.count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6>Up</h6>
                           <br />
                           <p>
-                            <a href=" "> {portData.Down_Count}</a>
+                            <a href="Ports"> {portData.Down_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Alert</h6>
                           <br />
                           <p>
-                            <a href=" "> {portData.Up_Count}</a>
+                            <a href="Ports"> {portData.Up_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Ignored (Dev)</h6>
                           <br />
                           <p>
-                            <a href=" "> {portData.ignore_count}</a>
+                            <a href="Ports"> {portData.ignore_count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
@@ -783,7 +783,7 @@ function Home1() {
                           <h6>Total</h6>
                           <br />
                           <p>
-                            <a href=" ">{sensorsData.Up_Count}</a>
+                            <a href="Devices">{sensorsData.Up_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
@@ -953,7 +953,7 @@ function Home1() {
                                 </a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{apiData.count}</a>
+                                <a href="Devices">{apiData.count}</a>
                               </td>
                               <td className="text-truncate">
                                 <a href=" ">{apiData.Down_Count} up</a>
@@ -978,19 +978,19 @@ function Home1() {
                                 </a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{portData.count}</a>
+                                <a href="Ports">{portData.count}</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{portData.Up_Count} up</a>
+                                <a href="Ports">{portData.Up_Count} up</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{portData.Down_Count} down</a>
+                                <a href="Ports">{portData.Down_Count} down</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{portData.ignore_count} ignored</a>
+                                <a href="Ports">{portData.ignore_count} ignored</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">
+                                <a href="Ports">
                                   {portData.disabled_count} shutdown
                                 </a>
                               </td>

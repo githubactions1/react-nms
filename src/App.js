@@ -2,7 +2,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import LoginForm from "./Components/LoginForm/login"
 import Home1 from './Components/Home/home1';
 import Memory from "./Components/Memory/memory";
-import LockScreen from "./Components/LockScreen/lockscreen";
+import LockScreen from "./Components/LockScreen/lockScreen";
 import RecoverPassword from './Components/RecoverPassword/recover';
 import Register from './Components/Register/register';
 import Notfound from './Components/Notfound/error';
@@ -10,10 +10,10 @@ import Ports from './Components/Ports/ports';
 import Devices1 from './Components/Devices/devices1';
 import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling';
 import DeviceStatus from './Components/DeviceStatus/DeviceStatus';
-import DeviceDetails from "./Components/DeviceDetails/devicedetails";
-import PortsBasic from "./Components/PortsBasic/portsbasic";
+import DeviceDetails from "./Components/DeviceDetails/deviceDetails";
+import PortsBasic from "./Components/PortsBasic/portsBasic";
 import Processors from "./Components/Processors/processors";
-import PortOverview from "./Components/PortOverview/portoverview";
+import PortOverview from "./Components/PortOverview/portOverview";
 import Sensors from "./Components/Sensors/sensors";
 import Statuses from "./Components/Statuses/statuses";
 import DeviceOverview from "./Components/DeviceOverview/overview";
