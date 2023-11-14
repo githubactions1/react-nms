@@ -5,20 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import { useState, useEffect } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-// import '@fortawesome/fontawesome-svg-core/index.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-// import ReactSearchBox from "react-search-box";
-// import {Search} from 'react-bootstrap-icons';
-// import Navbar from 'react-bootstrap/Navbar';
-// import Form from 'react-bootstrap/Form';
-// import Button from 'react-bootstrap/Button';
-// // import InputGroup from 'react-bootstrap/InputGroup';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-
-// import Spinner from "../src/Components/Spinner/spinner.js";
 
 
 
@@ -126,29 +113,29 @@ function Home1() {
   
 
 
-      const [searchValue, setSearchValue] = useState("");
+      // const [searchValue, setSearchValue] = useState("");
 
-      useEffect(() => {
+      // useEffect(() => {
     
-        const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/dashboard/statuses';
+      //   const API_URL = 'http://202.53.92.6:8080/apirt1/nmsuat/dashboard/statuses';
         
        
     
-        axios
-          .get(API_URL)
-          .then((response) => {
+      //   axios
+      //     .get(API_URL)
+      //     .then((response) => {
             
-            console.log(response.data.data[0].count)
+      //       console.log(response.data.data[0].count)
            
             
-            setSearchValue (response.data.data[0]);
+      //       setSearchValue (response.data.data[0]);
             
     
-          })
-          .catch((error) => {
-            console.error('Error fetching data:', error);
-          });
-      }, []); 
+      //     })
+      //     .catch((error) => {
+      //       console.error('Error fetching data:', error);
+      //     });
+      // }, []); 
   
 
   return (
@@ -531,7 +518,7 @@ function Home1() {
                           {" "}
                           <a
                             className="dropdown-item dropdown-toggle arrow-none"
-                            href=""
+                            href=" "
                             id="topnav-tables"
                             role="button"
                             data-toggle="dropdown"
