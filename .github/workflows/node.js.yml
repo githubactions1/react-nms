@@ -26,4 +26,5 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: /usr/local/bin/pm2 reload ecosystem.config.js
+    - run: pm2 ls
 
