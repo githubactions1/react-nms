@@ -14,7 +14,7 @@ import DeviceDetails from "./Components/DeviceDetails/deviceDetails";
 import PortsBasic from "./Components/PortsBasic/portsBasic";
 import Processors from "./Components/Processors/processors";
 import PortOverview from "./Components/PortOverview/portOverview";
-import Sensors from "./Components/Sensors/sensors";
+import Sensors from "./Components/Sensors/sensors.js";
 import Statuses from "./Components/Statuses/statuses";
 import DeviceOverview from "./Components/DeviceOverview/overview";
 import './App.css';
