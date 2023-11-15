@@ -18,6 +18,8 @@ import Sensors from "./Components/Sensors/sensors.js";
 import Statuses from "./Components/Statuses/statuses";
 import DeviceOverview from "./Components/DeviceOverview/overview";
 import Navbar from './Components/Navbar/navbar'
+import Spinner from './Components/Spinner/spinner'
+
 import './App.css';
 
 function App() {
@@ -40,6 +42,7 @@ function App() {
         <Route exact path="/Processors" element={<Processors />} />
         <Route exact path="/Sensors" element={<Sensors />} />
         <Route exact path="/Navbar" element={<Navbar />} />
+        <Route exact path="/Spinner" element={<Spinner />} />
         <Route exact path="/Statuses" element={<Statuses />} />
         <Route exact path="/DeviceOverview" element={<DeviceOverview/>} /> 
         <Route path="*" element={<Notfound />} />

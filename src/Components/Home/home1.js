@@ -1,6 +1,9 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import { BarLoader } from 'react-spinners';
+// import Spinner from './spinner';
+
 
 // import {
 //   createPopperLite as createPopper,
@@ -11,7 +14,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import { useState, useEffect } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Navbar from '../Navbar/navbar.js'; 
+import Navbar from '../Navbar/navbar.js';
+import Spinner from '../Spinner/spinner';
 
 
 
@@ -153,7 +157,11 @@ function Home1() {
   
 
   return (
-    
+      
+    <div>
+
+
+
       <div id="layout-wrapper">
         <div className="main-content">
          
@@ -1224,11 +1232,10 @@ function Home1() {
      
        
 
+    <Spinner />
+  </div>
          
-     
-    //   )}
-    // </div>
-    // </>
+    
   );
 }
 
