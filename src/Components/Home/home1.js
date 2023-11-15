@@ -1,11 +1,11 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {
-  createPopperLite as createPopper,
-  preventOverflow,
-  flip,
-} from '@popperjs/core';
+// import {
+//   createPopperLite as createPopper,
+//   preventOverflow,
+//   flip,
+// } from '@popperjs/core';
 // import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import axios from "axios";
 import { useState, useEffect } from "react";
