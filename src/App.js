@@ -1,22 +1,22 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import LoginForm from "./Components/LoginForm/login.js"
-import Home1 from './Components/Home/home1.js';
+import LoginForm from "./Components/LoginForm/login"
+import Home1 from './Components/Home/home1';       
 import Memory from "./Components/Memory/memory.js";
-import LockScreen from "./Components/LockScreen/lockScreen.js";
-import RecoverPassword from './Components/RecoverPassword/recover.js';
-import Register from './Components/Register/register.js';
-import Notfound from './Components/Notfound/error.js';
-import Ports from './Components/Ports/ports.js';
-import Devices1 from './Components/Devices/devices1.js';
-import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling.js';
-import DeviceStatus from './Components/DeviceStatus/deviceStatus.js';
-import DeviceDetails from "./Components/DeviceDetails/deviceDetails.js";
-import PortsBasic from "./Components/PortsBasic/portsBasic.js";
-import Processors from "./Components/Processors/processors.js";
-import PortOverview from "./Components/PortOverview/portOverview.js";
-import Sensors from "./Components/Sensors/sensors.js";
-import Statuses from "./Components/Statuses/statuses.js";
-import DeviceOverview from "./Components/DeviceOverview/overview.js";
+import LockScreen from "./Components/LockScreen/lockScreen";
+import RecoverPassword from './Components/RecoverPassword/recover';
+import Register from './Components/Register/register';
+import Notfound from './Components/Notfound/error';
+import Ports from './Components/Ports/ports';
+import Devices1 from './Components/Devices/devices1';
+import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling';
+import DeviceStatus from './Components/DeviceStatus/deviceStatus';
+import DeviceDetails from "./Components/DeviceDetails/deviceDetails";
+import PortsBasic from "./Components/PortsBasic/portsBasic";
+import Processors from "./Components/Processors/processors";
+import PortOverview from "./Components/PortOverview/portOverview";
+import Sensors from "./Components/Sensors/sensors";
+import Statuses from "./Components/Statuses/statuses";
+import DeviceOverview from "./Components/DeviceOverview/overview";
 import './App.css';
 
 function App() {
