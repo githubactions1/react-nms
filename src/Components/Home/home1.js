@@ -859,8 +859,7 @@ function Home1() {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="col-xl-4">
+                 <div className="col-xl-4">
                   <div className="card">
                     <div className="card-body">
                       <h4 className="card-title">Pie chart</h4>
@@ -894,7 +893,7 @@ function Home1() {
                       <canvas id="barChart"></canvas>
                     </div>
                   </div>
-                </div> */}
+                </div> 
 
                 <div className="col-xl-12">
                   <div className="card">

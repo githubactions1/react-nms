@@ -186,7 +186,7 @@ const Memory = () => {
                 </div>
               </div>
               <div class="col-lg-2">
-                <button id="search" name="search" type="button" class="btn btn-light text-nowrap" onclick="" value=""><i class="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                <button id="search" name="search" type="button" class="btn btn-light text-nowrap" onClick="" value=""><i class="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
               </div>
             </div>
           </div>
@@ -338,7 +338,7 @@ const Memory = () => {
 <script src="%PUBLIC_URL%/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
 <script src="%PUBLIC_URL%/assets/plugins/switchery/switchery.min.js"></script> 
 <script src="%PUBLIC_URL%/assets/pages/advanced-plugins-demo.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossOrigin="anonymous"></script> 
 
 {/* <!-- HIDDEN / POP-UP DIV --> */}
 <div id="pop-up">

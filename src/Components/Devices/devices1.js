@@ -338,7 +338,7 @@ function Devices1() {
               <div class="col-lg-2">
                 <div class="form-group mt-2">
                   <input type="checkbox" checked data-toggle="switchery" data-color="#ccc" data-size="small" title="Show Enabled / Disabled"/>
-                  <button id="search" name="search" type="button" class="btn btn-light pull-right text-nowrap" onclick="" value=""><i class="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                  <button id="search" name="search" type="button" class="btn btn-light pull-right text-nowrap" onClick="" value=""><i class="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
                 </div>
               </div>
             </div>
@@ -491,7 +491,7 @@ function Devices1() {
 <script src="../plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
 <script src="../plugins/switchery/switchery.min.js"></script> 
 <script src="assets/pages/advanced-plugins-demo.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossOrigin="anonymous"></script> 
 
 {/* <!-- HIDDEN / POP-UP DIV --> */}
 <div id="pop-up">

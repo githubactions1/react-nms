@@ -185,7 +185,7 @@ const statuses = () => {
                 </div>
               </div>
               <div className="col-lg-2">
-                <button id="search" name="search" type="button" className="btn btn-light text-nowrap" onclick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                <button id="search" name="search" type="button" className="btn btn-light text-nowrap" onClick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
               </div>
             </div>
           </div>

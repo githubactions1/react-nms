@@ -216,7 +216,7 @@ const ports1 = () => {
                 </div>
               </div>
               <div class="col-lg-1 mt-2">
-                <button id="search" name="search" type="button" class="btn btn-light pull-right text-nowrap" onclick="" value=""><i class="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
+                <button id="search" name="search" type="button" class="btn btn-light pull-right text-nowrap" onClick="" value=""><i class="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
               </div>
             </div>
           </div>
@@ -397,7 +397,7 @@ const ports1 = () => {
 <script src="assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
 <script src="assets/plugins/switchery/switchery.min.js"></script> 
 <script src="assets/pages/advanced-plugins-demo.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossOrigin="anonymous"></script> 
 
 
 <div id="pop-up">
@@ -451,7 +451,7 @@ const ports1 = () => {
 <script src="assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
 <script src="assets/plugins/switchery/switchery.min.js"></script> 
 <script src="assets/pages/advanced-plugins-demo.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossOrigin="anonymous"></script> 
 
 
     </>
