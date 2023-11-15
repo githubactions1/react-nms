@@ -7,7 +7,7 @@ import RecoverPassword from './Components/RecoverPassword/recover';
 import Register from './Components/Register/register';
 import Notfound from './Components/Notfound/error';
 import Ports from './Components/Ports/ports';
-import Devices1 from './Components/Devices/devices1';
+import Devices from './Components/Devices/devices';
 import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling';
 import DeviceStatus from './Components/DeviceStatus/deviceStatus';
 import DeviceDetails from "./Components/DeviceDetails/deviceDetails";
@@ -31,7 +31,7 @@ function App() {
         <Route exact path="/RecoverPassword" element={<RecoverPassword />} />
         <Route exact path="/Register" element={<Register />} />
         <Route exact path="/Ports" element={<Ports />} />
-        <Route exact path="/Devices1" element={<Devices1/>} />
+        <Route exact path="/Devices" element={<Devices/>} />
         <Route exact path="/DevicesPollingPerformance" element={<DevicesPollingPerformance />} />
         <Route exact path="/DeviceStatus" element={<DeviceStatus />} />
         <Route exact path="/DeviceDetails" element={<DeviceDetails />} />

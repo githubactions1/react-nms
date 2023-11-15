@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/navbar.js'; 
+import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 
 function DeviceDetails() {
   return (
@@ -61,52 +62,78 @@ function DeviceDetails() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Locations">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Locations">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Locations"
+        options={["one", "two", "three"]}
+        name="Select Locations"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select OS">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select OS">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select OS"
+        options={["one", "two", "three"]}
+        name="Select OS"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Hardware">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Hardware">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Hardware"
+        options={["one", "two", "three"]}
+        name="Select Hardware"
+
+      />
+                  
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Vendor">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Vendor">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Vendor"
+        options={["one", "two", "three"]}
+        name="Select Hardware"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Groups">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Groups">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Groups"
+        options={["one", "two", "three"]}
+        name="Select Groups"
+
+      />
                 </div>
               </div>
             </div>
@@ -123,42 +150,62 @@ function DeviceDetails() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select OS Version">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select OS Version">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select OS Version"
+        options={["one", "two", "three"]}
+        name="Select OS Version"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Featureset">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Featureset">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Featureset"
+        options={["one", "two", "three"]}
+        name="Select Featureset"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Device Type">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Device Type">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Device Type"
+        options={["one", "two", "three"]}
+        name="Select Device Type"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Hostname">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Hostname">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Hostname"
+        options={["one", "two", "three"]}
+        name="Hostname"
+
+      />
                 </div>
               </div>
             </div>
@@ -180,12 +227,17 @@ function DeviceDetails() {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Distro">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Distro">
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                     <option value="4">Four</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Select Distro"
+        options={["one", "two", "three"]}
+        name="Select Distro"
+
+      />
                 </div>
               </div>
               <div className="col-lg-2">

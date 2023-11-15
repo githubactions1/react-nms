@@ -1,5 +1,7 @@
 import React from 'react';
 import { BsBell } from 'react-icons/bs';
+import { Person } from 'react-bootstrap-icons';
+
 
 
 const Navbar = () => {
@@ -23,26 +25,28 @@ const Navbar = () => {
             </li>
             {/* Notifications */}
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href=" " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <BsBell  style={{paddingLeft:"0px",pr:"15px", color:"red"}}/> 
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Notification 1</a></li>
-                <li><a className="dropdown-item" href="#">Notification 2</a></li>
+                <li><a className="dropdown-item" href="Notification 1">Notification 1</a></li>
+                <li><a className="dropdown-item" href="Notification 2">Notification 2</a></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">View All</a></li>
+                <li><a className="dropdown-item" href="View All">View All</a></li>
               </ul>
             </li>
             {/* User Dropdown */}
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownUser" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                User
+              <a className="nav-link dropdown-toggle" href=" " id="navbarDropdownUser" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <Person /> 
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownUser">
-                <li><a className="dropdown-item" href="#">Profile</a></li>
-                <li><a className="dropdown-item" href="#">Settings</a></li>
+                <li><a className="dropdown-item" href="inbox">inbox</a></li>
+                <li><a className="dropdown-item" href="Profile">Profile</a></li>
+                <li><a className="dropdown-item" href="Settings">Settings</a></li>
+                <li><a className="dropdown-item" href="Lock Account">Lock Account</a></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Logout</a></li>
+                <li><a className="dropdown-item" href="Logout">Logout</a></li>
               </ul>
             </li>
           </ul>

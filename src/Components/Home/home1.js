@@ -156,244 +156,12 @@ function Home1() {
     
       <div id="layout-wrapper">
         <div className="main-content">
-          {/* <header id="page-topbar">
-            <div className="navbar-header">
-              <div className="navbar-brand-box d-flex align-items-left">
-                {" "}
-                <a href="Home" className="logo">
-                  {" "}
-                  <i className="feather-arrow-right-circle"></i>{" "}
-                  <span> Network Management System </span>{" "}
-                </a>
-                <button
-                  type="button"
-                  className="btn btn-sm mr-2 font-size-16 d-lg-none header-item waves-effect waves-light"
-                  data-toggle="collapse"
-                  data-target="topnav-menu-content"
-                >
-                  {" "}
-                  <i className="fa fa-fw fa-bars"></i>{" "}
-                </button>
-              </div>
-              <div className="d-flex align-items-center">
-                <div className="dropdown d-inline-block ml-2">
-                <button
-      type="button"
-      className="btn header-item noti-icon waves-effect waves-light"
-      id="page-header-search-dropdown"
-      data-toggle="dropdown"
-      aria-haspopup="true"
-      aria-expanded={isDropdownOpen ? 'true' : 'false'}
-      onClick={toggleDropdown}
-    >
-      <i className="mdi mdi-magnify"></i>
-    </button>
-                  <div
-                    className="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
-                    aria-labelledby="page-header-search-dropdown"
-                  >
-                    <form className="p-3">
-                      <div className="form-group m-0">
-                        <div className="input-group">
-                        
-                          <div className="input-group-append">
-                            <button className="btn btn-primary" type="submit">
-                              <i className="mdi mdi-magnify"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div className="dropdown d-inline-block">
-                  <button
-                    type="button"
-                    className="btn header-item noti-icon waves-effect waves-light"
-                    id="page-header-notifications-dropdown"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    {" "}
-                    <i className="mdi mdi-bell"></i> 1
-                  </button>
-                  <div
-                    className="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
-                    aria-labelledby="page-header-notifications-dropdown"
-                  >
-                    <div className="p-3">
-                      <div className="row align-items-center">
-                        <div className="col">
-                          <h6 className="m-0"> Notifications </h6>
-                        </div>
-                        <div className="col-auto">
-                          {" "}
-                          <a href="#!" className="small">
-                            {" "}
-                            View All
-                          </a>{" "}
-                        </div>
-                      </div>
-                    </div>
-                    <div data-simplebar>
-                      {" "}
-                      <a href=" " className="text-reset notification-item">
-                        <div className="media">
-                          {" "}
-                          <img
-                            src="assets/images/users/avatar-2.jpg"
-                            className="mr-3 rounded-circle avatar-xs"
-                            alt="user-pic"
-                          />
-                          <div className="media-body">
-                            <h6 className="mt-0 mb-1">Samuel Coverdale</h6>
-                            <p className="font-size-12 mb-1">
-                              You have new follower on Instagram
-                            </p>
-                            <p className="font-size-12 mb-0 text-muted">
-                              <i className="mdi mdi-clock-outline"></i> 2 min
-                              ago
-                            </p>
-                          </div>
-                        </div>
-                      </a>{" "}
-                      <a href=" " className="text-reset notification-item">
-                        <div className="media">
-                          <div className="avatar-xs mr-3">
-                            {" "}
-                            <span className="avatar-title bg-success rounded-circle">
-                              {" "}
-                              <i className="mdi mdi-cloud-download-outline"></i>{" "}
-                            </span>{" "}
-                          </div>
-                          <div className="media-body">
-                            <h6 className="mt-0 mb-1">Download Available !</h6>
-                            <p className="font-size-12 mb-1">
-                              Latest version of admin is now available. Please
-                              download here.
-                            </p>
-                            <p className="font-size-12 mb-0 text-muted">
-                              <i className="mdi mdi-clock-outline"></i> 4 hours
-                              ago
-                            </p>
-                          </div>
-                        </div>
-                      </a>{" "}
-                      <a href=" " className="text-reset notification-item">
-                        <div className="media">
-                          {" "}
-                          <img
-                            src="assets/images/users/avatar-3.jpg"
-                            className="mr-3 rounded-circle avatar-xs"
-                            alt="user-pic"
-                          />
-                          <div className="media-body">
-                            <h6 className="mt-0 mb-1">Victoria Mendis</h6>
-                            <p className="font-size-12 mb-1">
-                              Just upgraded to premium account.
-                            </p>
-                            <p className="font-size-12 mb-0 text-muted">
-                              <i className="mdi mdi-clock-outline"></i> 1 day
-                              ago
-                            </p>
-                          </div>
-                        </div>
-                      </a>{" "}
-                    </div>
-                    <div className="p-2 border-top">
-                      {" "}
-                      <a
-                        className="btn btn-sm btn-light btn-block text-center"
-                        href="javascript void(0)"
-                      >
-                        {" "}
-                        <i className="mdi mdi-arrow-down-circle mr-1"></i> Load
-                        More..{" "}
-                      </a>{" "}
-                    </div>
-                  </div>
-                </div>
-                <div className="dropdown d-inline-block ml-2">
-                  <button
-                    type="button"
-                    className="btn header-item waves-effect waves-light"
-                    id="page-header-user-dropdown"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    {" "}
-                    <img
-                      className="rounded-circle header-profile-user"
-                      src="../../assets/images/users/avatar-3.jpg"
-                      alt="Header Avatar"
-                    />{" "}
-                    <span className="d-none d-sm-inline-block ml-1">
-                      Jamie D.
-                    </span>{" "}
-                    <i className="mdi mdi-chevron-down d-none d-sm-inline-block"></i>{" "}
-                  </button>
-                  <div className="dropdown-menu dropdown-menu-right">
-                    {" "}
-                    <a
-                      className="dropdown-item d-flex align-items-center justify-content-between"
-                      href="javascript void(0)"
-                    >
-                      {" "}
-                      <span>Inbox</span>{" "}
-                      <span>
-                        {" "}
-                        <span className="badge badge-pill badge-info">
-                          3
-                        </span>{" "}
-                      </span>{" "}
-                    </a>{" "}
-                    <a
-                      className="dropdown-item d-flex align-items-center justify-content-between"
-                      href="javascript void(0)"
-                    >
-                      {" "}
-                      <span>Profile</span>{" "}
-                      <span>
-                        {" "}
-                        <span className="badge badge-pill badge-warning">
-                          1
-                        </span>{" "}
-                      </span>{" "}
-                    </a>{" "}
-                    <a
-                      className="dropdown-item d-flex align-items-center justify-content-between"
-                      href="javascript void(0)"
-                    >
-                      {" "}
-                      Settings{" "}
-                    </a>{" "}
-                    <a
-                      className="dropdown-item d-flex align-items-center justify-content-between"
-                      href="javascript void(0)"
-                    >
-                      {" "}
-                      <span>Lock Account</span>{" "}
-                    </a>{" "}
-                    <a
-                      className="dropdown-item d-flex align-items-center justify-content-between"
-                      href="javascript void(0)"
-                    >
-                      {" "}
-                      <span>Log Out</span>{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </header> */}
-          
-
+         
           <div>
       <Navbar />
-    
     </div>
+
+
           <div className="topnav">
             <div className="container-fluid">
               <nav className="navbar navbar-light navbar-expand-lg topnav-menu">
@@ -686,7 +454,7 @@ function Home1() {
                           <h6>Total</h6>
                           <br />
                           <p>
-                            <a href="Devices1">{apiData.count}</a>
+                            <a href="Devices">{apiData.count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -694,7 +462,7 @@ function Home1() {
                           <h6>Up</h6>
                           <br />
                           <p>
-                            <a href="Devices1"> {apiData.Down_Count}</a>
+                            <a href="Devices"> {apiData.Down_Count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -702,7 +470,7 @@ function Home1() {
                           <h6> Alert</h6>
                           <br />
                           <p>
-                            <a href="Devices1"> {apiData.Up_Count}</a>
+                            <a href="Devices"> {apiData.Up_Count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -710,7 +478,7 @@ function Home1() {
                           <h6> Ignored (Dev)</h6>
                           <br />
                           <p>
-                            <a href="Devices1">{apiData.ignore_count}</a>
+                            <a href="Devices">{apiData.ignore_count}</a>
                           </p>
                         </div>
                         <div className="device">
@@ -718,7 +486,7 @@ function Home1() {
                           <h6> Disabled / Shut</h6>
                           <br />
                           <p>
-                            <a href="Devices1">{apiData.disabled_count}</a>
+                            <a href="Devices">{apiData.disabled_count}</a>
                           </p>
                         </div>
                       </div>
@@ -769,7 +537,7 @@ function Home1() {
                           <br />
 
                           <p>
-                            <a href=" ">{portData.disabled_count}</a>
+                            <a href="Ports">{portData.disabled_count}</a>
                           </p>
                         </div>
                       </div>
@@ -790,35 +558,35 @@ function Home1() {
                           <h6>Total</h6>
                           <br />
                           <p>
-                            <a href="Devices">{sensorsData.Up_Count}</a>
+                            <a href="Sensors">{sensorsData.Up_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6>Up</h6>
                           <br />
                           <p>
-                            <a href=" "> {sensorsData.Up_Count}</a>
+                            <a href="Sensors"> {sensorsData.Up_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Alert</h6>
                           <br />
                           <p>
-                            <a href=" "> {sensorsData.Down_Count}</a>
+                            <a href="Sensors"> {sensorsData.Down_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Ignored (Dev)</h6>
                           <br />
                           <p>
-                            <a href=" "> {sensorsData.ignore_count}</a>
+                            <a href="Sensors"> {sensorsData.ignore_count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Disabled / Shut</h6>
                           <br />
                           <p>
-                            <a href=" ">{sensorsData.disabled_count}</a>
+                            <a href="Sensors">{sensorsData.disabled_count}</a>
                           </p>
                         </div>
                       </div>
@@ -839,35 +607,35 @@ function Home1() {
                           <h6>Total</h6>
                           <br />
                           <p>
-                            <a href=" ">{statusesData.Down_Count}</a>
+                            <a href="Statuses">{statusesData.Down_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6>Up</h6>
                           <br />
                           <p>
-                            <a href=" "> {statusesData.Up_Count}</a>
+                            <a href="Statuses"> {statusesData.Up_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Alert</h6>
                           <br />
                           <p>
-                            <a href=" "> {statusesData.Down_Count}</a>
+                            <a href="Statuses"> {statusesData.Down_Count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Ignored (Dev)</h6>
                           <br />
                           <p>
-                            <a href=" "> {statusesData.ignore_count}</a>
+                            <a href="Statuses"> {statusesData.ignore_count}</a>
                           </p>
                         </div>
                         <div className="device"><br />
                           <h6> Disabled / Shut</h6>
                           <br />
                           <p>
-                            <a href=" ">{statusesData.Down_Count}</a>
+                            <a href="Statuses">{statusesData.Down_Count}</a>
                           </p>
                         </div>
                       </div>
@@ -954,7 +722,7 @@ function Home1() {
                             <tr className="error">
                               <td className="red"></td>
                               <td className="text-truncate">
-                                <a href="devices">
+                                <a href="Devices">
                                   <strong>Devices</strong>
                                 </a>
                               </td>
@@ -962,16 +730,16 @@ function Home1() {
                                 <a href="Devices">{apiData.count}</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{apiData.Down_Count} up</a>
+                                <a href="Devices">{apiData.Down_Count} up</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{apiData.Up_Count} down</a>
+                                <a href="Devices">{apiData.Up_Count} down</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{apiData.ignore_count} ignored</a>
+                                <a href="Devices">{apiData.ignore_count} ignored</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">
+                                <a href="Devices">
                                   {apiData.disabled_count} disabled
                                 </a>
                               </td>
@@ -1009,21 +777,21 @@ function Home1() {
                                 </a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{sensorsData.Up_Count}</a>
+                                <a href="Sensors">{sensorsData.Up_Count}</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{sensorsData.Up_Count} Ok</a>
+                                <a href="Sensors">{sensorsData.Up_Count} Ok</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{sensorsData.Down_Count} alerts</a>
+                                <a href="Sensors">{sensorsData.Down_Count} alerts</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">
+                                <a href="Sensors">
                                   {sensorsData.ignore_count} ignored
                                 </a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">
+                                <a href="Sensors">
                                   {sensorsData.disabled_count} disabled
                                 </a>
                               </td>
@@ -1036,21 +804,21 @@ function Home1() {
                                 </a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{statusesData.Down_Count}</a>
+                                <a href="Statuses">{statusesData.Down_Count}</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{statusesData.Up_Count} ok</a>
+                                <a href="Statuses">{statusesData.Up_Count} ok</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">{statusesData.Down_Count} alerts</a>
+                                <a href="Statuses">{statusesData.Down_Count} alerts</a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">
+                                <a href="Statuses">
                                   {statusesData.ignore_count} ignored{" "}
                                 </a>
                               </td>
                               <td className="text-truncate">
-                                <a href=" ">
+                                <a href="Statuses">
                                   {statusesData.Down_Count} disabled
                                 </a>
                               </td>
