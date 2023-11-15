@@ -3,6 +3,10 @@ import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 import Navbar from '../Navbar/navbar.js'; 
 
 const Processors = () => {
+  const handleSearchClick = () => {
+    console.log('Search button clicked!');
+    
+  };
   return (
     <>
       <div id="layout-wrapper">
@@ -47,11 +51,11 @@ const Processors = () => {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event">
                     <option value="1">alert</option>
                     <option value="2">ignore</option>
                     <option value="3">Ok</option>
-                  </select>
+                  </select> */}
                   <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event"
         options={["alert", "ignore","ok"]}
         name="Status Event"
@@ -62,14 +66,14 @@ const Processors = () => {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status">
                     <option value="1">false</option>
                     <option value="2">true</option>
                     <option value="3">Waiting for load</option>
-                  </select>
-                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event"
+                  </select> */}
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status"
         options={["false", "true","Waiting for load"]}
-        name="Status Event"
+        name="Status"
        
         
       />
@@ -77,12 +81,18 @@ const Processors = () => {
               </div>
               <div className="col-lg-2">
                 <div className="form-group">
-                  <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Measured State">
+                  {/* <select className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Measured State">
                     <option value="1">Without Measure</option>
                     <option value="2">Measure Up</option>
                     <option value="3">Measure Down</option>
                     <option value="4">Measure Shutdown</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Measured State"
+        options={["false", "true","Waiting for load"]}
+        name="Measured State"
+       
+        
+      />
                 </div>
               </div>
             </div>
@@ -98,8 +108,17 @@ const Processors = () => {
                 </div>
               </div>
               <div className="col-lg-2">
-                <button id="search" name="search" type="button" className="btn btn-light text-nowrap" onClick="" value=""><i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search</button>
-              </div>
+      <button
+        id="search"
+        name="search"
+        type="button"
+        className="btn btn-light text-nowrap"
+        onClick={handleSearchClick}
+        value=""
+      >
+       <i className="mdi mdi-magnify"></i>&nbsp;&nbsp;Search
+      </button>
+            </div>
             </div>
           </div>
         </div>

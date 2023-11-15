@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/navbar.js'; 
+import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+
 
 const Memory = () => {
   return (
@@ -18,39 +20,65 @@ const Memory = () => {
             <div class="row">
               <div class="col-lg-2">
                 <div class="form-group">
-                  <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device">
+                  {/* <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device">
                     <option value="1">175.101.18.21</option>
                     <option value="2">175.101.18.18</option>
                     <option value="3">175.101.18.19</option>
                     <option value="4">175.101.18.20</option>
                     <option value="5">175.101.18.21</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Device"
+        options={["175.101.18.21", "175.101.18.18", "175.101.18.19","175.101.18.20"]}
+        name="Device"
+       
+        
+      />
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="form-group">
-                  <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Physical Class">
+                  {/* <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Physical Class">
                     <option value="1">Device</option>
                     <option value="2">Port</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Physical Class"
+        options={["175.101.18.21", "175.101.18.18", "175.101.18.19","175.101.18.20"]}
+        name="Physical Class"
+       
+        
+      />
+                  
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="form-group">
-                  <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event">
+                  {/* <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status Event">
                     <option value="1">alert</option>
                     <option value="2">ignore</option>
                     <option value="3">Ok</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Physical Class"
+        options={["175.101.18.21", "175.101.18.18", "175.101.18.19","175.101.18.20"]}
+        name="Physical Class"
+       
+        
+      />
+
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="form-group">
-                  <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status">
+                  {/* <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Status">
                     <option value="1">false</option>
                     <option value="2">true</option>
                     <option value="3">Waiting for load</option>
-                  </select>
+                  </select> */}
+                  <DropdownMultiselect className="selectpicker" multiple aria-label="Default select example" data-live-search="true" placeholder="Physical Class"
+        options={["175.101.18.21", "175.101.18.18", "175.101.18.19","175.101.18.20"]}
+        name="Physical Class"
+       
+        
+      />
                 </div>
               </div>
               <div class="col-lg-2">
