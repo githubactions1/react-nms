@@ -1,24 +1,24 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import LoginForm from "./Components/LoginForm/login"
-import Home1 from './Components/Home/home1';       
+import LoginForm from "./Components/LoginForm/Login.js"
+import Home1 from './Components/Home/Home.js';       
 import Memory from "./Components/Memory/memory.js";
-import LockScreen from "./Components/LockScreen/lockScreen";
-import RecoverPassword from './Components/RecoverPassword/recover';
-import Register from './Components/Register/register';
-import Notfound from './Components/Notfound/error';
-import Ports from './Components/Ports/ports';
-import Devices from './Components/Devices/devices';
-import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling';
-import DeviceStatus from './Components/DeviceStatus/deviceStatus';
-import DeviceDetails from "./Components/DeviceDetails/deviceDetails";
-import PortsBasic from "./Components/PortsBasic/portsBasic";
-import Processors from "./Components/Processors/processors";
-import PortOverview from "./Components/PortOverview/portOverview";
-import Sensors from "./Components/Sensors/sensors.js";
-import Statuses from "./Components/Statuses/statuses";
-import DeviceOverview from "./Components/DeviceOverview/overview";
-import Navbar from './Components/Navbar/navbar'
-import Spinner from './Components/Spinner/spinner'
+import LockScreen from "./Components/LockScreen/LockScreen.js";
+import RecoverPassword from './Components/RecoverPassword/Recover.js';
+import Register from './Components/Register/register.js';
+import Notfound from './Components/Notfound/error.js';
+import Ports from './Components/Ports/Ports.js';
+import Devices from './Components/Devices/Devices.js';
+import DevicesPollingPerformance from './Components/DevicesPollingPerformance/Polling.js';
+import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
+import DeviceDetails from "./Components/DeviceDetails/DeviceDetails.js";
+import PortsBasic from "./Components/PortsBasic/PortsBasic.js";
+import Processors from "./Components/Processors/Processors.js";
+import PortOverview from "./Components/PortOverview/portOverview.js";
+import Sensors from "./Components/Sensors/Sensors.js";
+import Statuses from "./Components/Statuses/statuses.js";
+import DeviceOverview from "./Components/DeviceOverview/overview.js";
+import Navbar from './Components/Navbar/navbar.js'
+import Spinner from './Components/Spinner/spinner.js'
 
 import './App.css';
 
