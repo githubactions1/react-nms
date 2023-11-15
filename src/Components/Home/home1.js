@@ -1,6 +1,7 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import {
 //   createPopperLite as createPopper,
 //   preventOverflow,
@@ -10,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import { useState, useEffect } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Navbar from '../Navbar/navbar.js'; 
 
 
 
@@ -141,13 +143,20 @@ function Home1() {
       //       console.error('Error fetching data:', error);
       //     });
       // }, []); 
+
+  //     const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  // const toggleDropdown = () => {
+  //   setDropdownOpen(!isDropdownOpen);
+  // };
+
   
 
   return (
     
       <div id="layout-wrapper">
         <div className="main-content">
-          <header id="page-topbar">
+          {/* <header id="page-topbar">
             <div className="navbar-header">
               <div className="navbar-brand-box d-flex align-items-left">
                 {" "}
@@ -168,17 +177,17 @@ function Home1() {
               </div>
               <div className="d-flex align-items-center">
                 <div className="dropdown d-inline-block ml-2">
-                  <button
-                    type="button"
-                    className="btn header-item noti-icon waves-effect waves-light"
-                    id="page-header-search-dropdown"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    {" "}
-                    <i className="mdi mdi-magnify"></i>{" "}
-                  </button>
+                <button
+      type="button"
+      className="btn header-item noti-icon waves-effect waves-light"
+      id="page-header-search-dropdown"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded={isDropdownOpen ? 'true' : 'false'}
+      onClick={toggleDropdown}
+    >
+      <i className="mdi mdi-magnify"></i>
+    </button>
                   <div
                     className="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
                     aria-labelledby="page-header-search-dropdown"
@@ -378,7 +387,13 @@ function Home1() {
                 </div>
               </div>
             </div>
-          </header>
+          </header> */}
+          
+
+          <div>
+      <Navbar />
+    
+    </div>
           <div className="topnav">
             <div className="container-fluid">
               <nav className="navbar navbar-light navbar-expand-lg topnav-menu">
