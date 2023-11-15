@@ -20,7 +20,7 @@ import Spinner from '../Spinner/spinner';
 
 
 
-function Home1() {
+function Home() {
     const [apiData, setApiData] = useState({count:0});
   
     useEffect(() => {
@@ -1004,4 +1004,4 @@ function Home1() {
   );
 }
 
-export default Home1
+export default Home

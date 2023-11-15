@@ -1,32 +1,47 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import LoginForm from "./Components/LoginForm/Login.js"
-import Home1 from './Components/Home/Home.js';       
-import Memory from "./Components/Memory/memory.js";
-import LockScreen from "./Components/LockScreen/LockScreen.js";
-import RecoverPassword from './Components/RecoverPassword/Recover.js';
-import Register from './Components/Register/register.js';
-import Notfound from './Components/Notfound/error.js';
-import Ports from './Components/Ports/Ports.js';
-import Devices from './Components/Devices/Devices.js';
-import DevicesPollingPerformance from './Components/DevicesPollingPerformance/Polling.js';
-import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
-import DeviceDetails from "./Components/DeviceDetails/DeviceDetails.js";
-import PortsBasic from "./Components/PortsBasic/PortsBasic.js";
-import Processors from "./Components/Processors/Processors.js";
-import PortOverview from "./Components/PortOverview/portOverview.js";
-import Sensors from "./Components/Sensors/Sensors.js";
-import Statuses from "./Components/Statuses/statuses.js";
-import DeviceOverview from "./Components/DeviceOverview/overview.js";
+
+import Home from '../src/Components/Home/Home.js';
+import Memory from "../src/Components/Memory/memory.js";
+import LockScreen from '../src/Components/LockScreen/LockScreen.js';
+import RecoverPassword from '../src/Components/RecoverPassword/RecoverPassword.js';
+import Register from '../src/Components/Register/register.js';
+import Notfound from '../src/Components/Notfound/error.js';
+import Ports from '../src/Components/Ports/Ports.js';
+import Devices from '../src/Components/Devices/Devices.js';
+import DevicesPollingPerformance from '../src/Components/DevicesPollingPerformance/Polling.js';
+import DeviceStatus from '../src/Components/DeviceStatus/DeviceStatus.js';
+import DeviceDetails from "../src/Components/DeviceDetails/DeviceDetails.js";
+import PortsBasic from '../src/Components/PortsBasic/PortsBasic.js';
+import Processors from "../src/Components/Processors/Processors.js";
+import PortOverview from '../src/Components/PortOverview/PortOverview.js';
+import Sensors from "../src/Components/Sensors/Sensors.js";
+import Statuses from "../src/Components/Statuses/statuses.js";
+import DeviceOverview from "../src/Components/DeviceOverview/overview.js";
+
+
 import Navbar from './Components/Navbar/navbar.js'
 import Spinner from './Components/Spinner/spinner.js'
 
 import './App.css';
 
+
+
+
+
+
+
+
+
+
+
+
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route exact path="/Home" element={<Home1 />} />
+      <Route exact path="/Home" element={<Home />} />
       <Route exact path="/" element={<LoginForm />} />
       <Route exact path="/Memory" element={<Memory />} />
         <Route exact path="/LockScreen" element={<LockScreen />} />
@@ -44,6 +59,7 @@ function App() {
         <Route exact path="/Navbar" element={<Navbar />} />
         <Route exact path="/Spinner" element={<Spinner />} />
         <Route exact path="/Statuses" element={<Statuses />} />
+        <Route exact path="/Devices" element={<Devices />} />
         <Route exact path="/DeviceOverview" element={<DeviceOverview/>} /> 
         <Route path="*" element={<Notfound />} />
       </Routes>

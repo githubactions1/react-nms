@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/navbar.js'; 
 
-const sensors = () => {
+const Sensors = () => {
   return (
     <>
       <div id="layout-wrapper">
@@ -348,4 +348,4 @@ const sensors = () => {
   )
 }
 
-export default sensors
+export default Sensors

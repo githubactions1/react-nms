@@ -4,7 +4,7 @@ import Navbar from '../Navbar/navbar.js';
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 
 
-function deviceStatus() {
+function DeviceStatus() {
   return (
     <>
       <div id="layout-wrapper">
@@ -804,4 +804,4 @@ function deviceStatus() {
   );
 }
 
-export default deviceStatus;
+export default DeviceStatus;

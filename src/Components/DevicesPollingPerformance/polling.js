@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/navbar.js'; 
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 
-function polling() {
+function Polling() {
   return (
     <>
       <div id="layout-wrapper">
@@ -390,4 +390,4 @@ function polling() {
   )
 }
 
-export default polling
+export default Polling

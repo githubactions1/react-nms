@@ -3,7 +3,7 @@ import axios from 'axios';
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 import Navbar from '../Navbar/navbar.js'; 
 
-function Devices1() {
+function Devices() {
   const [basicListData, setBasicListData] = useState([]);
 
   useEffect(() => {
@@ -357,7 +357,7 @@ function Devices1() {
   )
 }
 
-export default Devices1
+export default Devices
 
 
 

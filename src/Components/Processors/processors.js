@@ -2,7 +2,7 @@ import React from 'react'
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 import Navbar from '../Navbar/navbar.js'; 
 
-const processors = () => {
+const Processors = () => {
   return (
     <>
       <div id="layout-wrapper">
@@ -275,4 +275,4 @@ const processors = () => {
   )
 }
 
-export default processors
+export default Processors
