@@ -3,11 +3,12 @@
  * Author: Myra Studio
  * File: Main Js
  */
-
+import Waves from "/node_modules/node-waves/dist/waves.js"
+import jQuery from '../node_modules/jquery/dist/jquery.min.js'
 
 (function ($) {
 
-    'use strict';
+    // 'use strict';
 
     function initDropdownMenu() {
         $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
