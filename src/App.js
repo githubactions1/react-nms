@@ -20,8 +20,8 @@ import DevicesPollingPerformance from '../src/Components/DevicesPollingPerforman
 import DeviceStatus from '../src/Components/DeviceStatus/DeviceStatus.js';
 import DeviceDetails from "../src/Components/DeviceDetails/DeviceDetails.js";
 import PortsBasic from '../src/Components/PortsBasic/PortsBasic.js';
-import Processors from "../src/Components/Processors/Processors.js";
-import PortOverview from '../src/Components/PortOverview/PortOverview.js';
+import Processors from "/react_nms/src/Components/Processors/Processors.js";
+import PortOverview from '../react_nms/src/Components/PortOverview/PortOverview.js';
 import Sensors from "react_nms/src/Components/Sensors/Sensors.js";
 import Statuses from "../src/Components/Statuses/statuses.js";
 import DeviceOverview from "../src/Components/DeviceOverview/overview.js";
