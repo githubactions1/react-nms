@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import { css } from '@emotion/react';
 import { BarLoader } from 'react-spinners';
 
-const LoadingSpinner = () => {
+const Spinner = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -24,4 +24,4 @@ const LoadingSpinner = () => {
   );
 };
 
-export default LoadingSpinner;
+export default Spinner;

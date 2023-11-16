@@ -2,7 +2,7 @@ import React from 'react'
 // import Chart from 'chart.js';
 import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
 import Navbar from '../Navbar/navbar.js'; 
 
 const PortOverview = () => {

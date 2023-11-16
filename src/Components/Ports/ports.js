@@ -1,7 +1,7 @@
 import React from 'react'
 import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 import Navbar from '../Navbar/navbar.js'; 
 // import { useState, useEffect } from "react";

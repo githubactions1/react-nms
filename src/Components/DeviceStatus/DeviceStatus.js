@@ -1,5 +1,4 @@
 import React from "react";
-import "../../"
 import Navbar from '../Navbar/navbar.js'; 
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 

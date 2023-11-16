@@ -1,21 +1,11 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { BarLoader } from 'react-spinners';
-// import Spinner from './spinner';
-
-
-// import {
-//   createPopperLite as createPopper,
-//   preventOverflow,
-//   flip,
-// } from '@popperjs/core';
-// import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import axios from "axios";
 import { useState, useEffect } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Navbar from '../Navbar/navbar.js';
-import Spinner from '../Spinner/spinner';
+import Spinner from '../Spinner/spinner.js';
 
 
 

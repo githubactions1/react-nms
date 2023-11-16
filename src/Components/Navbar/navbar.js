@@ -1,7 +1,6 @@
 import React from 'react';
-import { BsBell } from 'react-icons/bs';
+import { AiOutlineBell  } from 'react-icons/ai/index.esm.js';
 import { Person } from 'react-bootstrap-icons';
-
 
 
 const Navbar = () => {
@@ -28,7 +27,7 @@ const Navbar = () => {
             {/* Notifications */}
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href=" " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <BsBell  style={{paddingLeft:"0px",pr:"15px", color:"red"}}/> 
+                <AiOutlineBell   style={{paddingLeft:"0px",pr:"15px", color:"red"}}/> 
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a className="dropdown-item" href="Notification 1">Notification 1</a></li>
