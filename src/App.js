@@ -8,20 +8,20 @@ import 'bootstrap-select/dist/js/bootstrap-select.min.js';
 
 import LoginForm from "./NMS-Frontend/actions-runner-frontend/_work/react_nms/react_nms/src/Components/LoginForm/Login.js"
 
-import Home from './actions-runner-frontend/_work/react_nms/react_nms/src/Components/Home/Home.js';
+import Home from './_work/react_nms/react_nms/src/Components/Home/Home.js';
 import Memory from "./_work/react_nms/react_nms/src/Components/Memory/memory.js";
-import LockScreen from './react_nms/react_nms/src/Components/LockScreen/LockScreen.js';
-import RecoverPassword from './react_nms/src/Components/RecoverPassword/RecoverPassword.js';
-import Register from './react_nms/src/Components/Register/register.js';
-import Notfound from '../src/Components/Notfound/error.js';
-import Ports from './Components/Ports/Ports.js';
-import Devices from './Components/Devices/Devices.js';
-import DevicesPollingPerformance from './Components/DevicesPollingPerformance/Polling.js';
-import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
-import DeviceDetails from "./Components/DeviceDetails/DeviceDetails.js";
-import PortsBasic from './Components/PortsBasic/PortsBasic.js';
-import Processors from "./Components/Processors/Processors.js";
-import PortOverview from './Components/PortOverview/PortOverview.js';
+import LockScreen from './_work/react_nms/react_nms/src/Components/LockScreen/LockScreen.js';
+import RecoverPassword from './_work/react_nms/react_nms/src/Components/RecoverPassword/RecoverPassword.js';
+import Register from './_work/react_nms/react_nms/src/Components/Register/register.js';
+import Notfound from './_work/react_nms/react_nms/src/Components/Notfound/error.js';
+import Ports from './_work/react_nms/react_nms/src/Components/Ports/Ports.js';
+import Devices from './_work/react_nms/react_nms/src/Components/Devices/Devices.js';
+import DevicesPollingPerformance from './_work/react_nms/react_nms/src/Components/DevicesPollingPerformance/Polling.js';
+import DeviceStatus from './_work/react_nms/react_nms/src/Components/DeviceStatus/DeviceStatus.js';
+import DeviceDetails from "./_work/react_nms/react_nms/src/Components/DeviceDetails/DeviceDetails.js";
+import PortsBasic from './_work/react_nms/react_nms/src/Components/PortsBasic/PortsBasic.js';
+import Processors from "./_work/react_nms/react_nms/src/Components/Processors/Processors.js";
+import PortOverview from './_work/react_nms/react_nms/src/Components/PortOverview/PortOverview.js';
 import Sensors from "./Components/Sensors/Sensors.js";
 import Statuses from "./Components/Statuses/statuses.js";
 import DeviceOverview from "./Components/DeviceOverview/overview.js";
