@@ -25,6 +25,7 @@ import PortOverview from '../src/Components/PortOverview/PortOverview.js';
 import Sensors from "../src/Components/Sensors/Sensors.js";
 import Statuses from "../src/Components/Statuses/statuses.js";
 import DeviceOverview from "../src/Components/DeviceOverview/overview.js";
+import Information from "../src/Components/Information/Information.js";
 
 
 import Navbar from './Components/Navbar/navbar.js'
@@ -56,6 +57,7 @@ function App() {
         <Route exact path="/Spinner" element={<Spinner />} />
         <Route exact path="/Statuses" element={<Statuses />} />
         <Route exact path="/Devices" element={<Devices />} />
+        <Route exact path="/Information" element={<Information />} />
         <Route exact path="/DeviceOverview" element={<DeviceOverview/>} /> 
         <Route path="*" element={<Notfound />} />
       </Routes>
