@@ -3,7 +3,7 @@ import 'bootstrap-select/dist/css/bootstrap-select.min.css';
 import 'bootstrap-select/dist/js/bootstrap-select.min.js';
 
 
-// Your React component code
+
 
 
 import LoginForm from "./Components/LoginForm/login.js"
