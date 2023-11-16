@@ -6,7 +6,7 @@ import 'bootstrap-select/dist/js/bootstrap-select.min.js';
 // Your React component code
 
 
-import LoginForm from "./NMS-Frontend/actions-runner-frontend/_work/react_nms/react_nms/src/Components/LoginForm/Login.js"
+import LoginForm from "./_work/react_nms/react_nms/src/Components/LoginForm/Login.js"
 
 import Home from './_work/react_nms/react_nms/src/Components/Home/Home.js';
 import Memory from "./_work/react_nms/react_nms/src/Components/Memory/memory.js";
