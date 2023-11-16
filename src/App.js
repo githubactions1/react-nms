@@ -11,12 +11,12 @@ import LoginForm from "./Components/LoginForm/login.js"
 import Home from './Components/Home/Home.js';
 import Memory from "./Components/Memory/memory.js";
 import LockScreen from './Components/LockScreen/lockscreen.js';
-import RecoverPassword from './Components/RecoverPassword/recoverpassword.js';
+import RecoverPassword from './Components/RecoverPassword/RecoverPassword.js';
 import Register from './Components/Register/register.js';
 import Notfound from './Components/Notfound/error.js';
 import Ports from './Components/Ports/ports.js';
 import Devices from './Components/Devices/devices.js';
-import DevicesPollingPerformance from './Components/DevicesPollingPerformance/Polling.js';
+import DevicesPollingPerformance from './Components/DevicesPollingPerformance/polling.js';
 import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
 import DeviceDetails from "./Components/DeviceDetails/devicedetails.js";
 import PortsBasic from './Components/PortsBasic/portsbasic.js';
@@ -25,7 +25,7 @@ import PortOverview from './Components/PortOverview/portoverview.js';
 import Sensors from "./Components/Sensors/sensors.js";
 import Statuses from "./Components/Statuses/statuses.js";
 import DeviceOverview from "./Components/DeviceOverview/overview.js";
-import Information from "./Components/Information/Information.js";
+import Information from "./Components/Information/information.js";
 
 
 import Navbar from './Components/Navbar/navbar.js'
