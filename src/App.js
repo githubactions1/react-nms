@@ -6,22 +6,22 @@ import 'bootstrap-select/dist/js/bootstrap-select.min.js';
 // Your React component code
 
 
-import LoginForm from "./_work/react_nms/react_nms/src/Components/LoginForm/Login.js"
+import LoginForm from "./Components/LoginForm/Login.js"
 
-import Home from './_work/react_nms/react_nms/src/Components/Home/Home.js';
-import Memory from "./_work/react_nms/react_nms/src/Components/Memory/memory.js";
-import LockScreen from './_work/react_nms/react_nms/src/Components/LockScreen/LockScreen.js';
-import RecoverPassword from './_work/react_nms/react_nms/src/Components/RecoverPassword/RecoverPassword.js';
-import Register from './_work/react_nms/react_nms/src/Components/Register/register.js';
-import Notfound from './_work/react_nms/react_nms/src/Components/Notfound/error.js';
-import Ports from './_work/react_nms/react_nms/src/Components/Ports/Ports.js';
-import Devices from './_work/react_nms/react_nms/src/Components/Devices/Devices.js';
-import DevicesPollingPerformance from './_work/react_nms/react_nms/src/Components/DevicesPollingPerformance/Polling.js';
-import DeviceStatus from './_work/react_nms/react_nms/src/Components/DeviceStatus/DeviceStatus.js';
-import DeviceDetails from "./_work/react_nms/react_nms/src/Components/DeviceDetails/DeviceDetails.js";
-import PortsBasic from './_work/react_nms/react_nms/src/Components/PortsBasic/PortsBasic.js';
-import Processors from "./_work/react_nms/react_nms/src/Components/Processors/Processors.js";
-import PortOverview from './_work/react_nms/react_nms/src/Components/PortOverview/PortOverview.js';
+import Home from './Components/Home/Home.js';
+import Memory from "./Components/Memory/memory.js";
+import LockScreen from './Components/LockScreen/LockScreen.js';
+import RecoverPassword from './Components/RecoverPassword/RecoverPassword.js';
+import Register from './Components/Register/register.js';
+import Notfound from './Components/Notfound/error.js';
+import Ports from './Components/Ports/Ports.js';
+import Devices from './Components/Devices/Devices.js';
+import DevicesPollingPerformance from './Components/DevicesPollingPerformance/Polling.js';
+import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
+import DeviceDetails from "./Components/DeviceDetails/DeviceDetails.js";
+import PortsBasic from './Components/PortsBasic/PortsBasic.js';
+import Processors from "./Components/Processors/Processors.js";
+import PortOverview from './Components/PortOverview/PortOverview.js';
 import Sensors from "./Components/Sensors/Sensors.js";
 import Statuses from "./Components/Statuses/statuses.js";
 import DeviceOverview from "./Components/DeviceOverview/overview.js";
@@ -38,9 +38,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route exact path="/Home" element={<Home />} />
-      <Route exact path="/" element={<LoginForm />} />
-      <Route exact path="/Memory" element={<Memory />} />
+        <Route exact path="/Home" element={<Home />} />
+        <Route exact path="/" element={<LoginForm />} />
+        <Route exact path="/Memory" element={<Memory />} />
         <Route exact path="/LockScreen" element={<LockScreen />} />
         <Route exact path="/RecoverPassword" element={<RecoverPassword />} />
         <Route exact path="/Register" element={<Register />} />
