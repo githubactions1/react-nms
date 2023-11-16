@@ -6,23 +6,23 @@ import 'bootstrap-select/dist/js/bootstrap-select.min.js';
 // Your React component code
 
 
-import LoginForm from "./Components/LoginForm/Login.js"
+import LoginForm from "./Components/LoginForm/login.js"
 
 import Home from './Components/Home/Home.js';
 import Memory from "./Components/Memory/memory.js";
-import LockScreen from './Components/LockScreen/LockScreen.js';
-import RecoverPassword from './Components/RecoverPassword/RecoverPassword.js';
+import LockScreen from './Components/LockScreen/lockscreen.js';
+import RecoverPassword from './Components/RecoverPassword/recoverpassword.js';
 import Register from './Components/Register/register.js';
 import Notfound from './Components/Notfound/error.js';
-import Ports from './Components/Ports/Ports.js';
-import Devices from './Components/Devices/Devices.js';
+import Ports from './Components/Ports/ports.js';
+import Devices from './Components/Devices/devices.js';
 import DevicesPollingPerformance from './Components/DevicesPollingPerformance/Polling.js';
 import DeviceStatus from './Components/DeviceStatus/DeviceStatus.js';
-import DeviceDetails from "./Components/DeviceDetails/DeviceDetails.js";
-import PortsBasic from './Components/PortsBasic/PortsBasic.js';
-import Processors from "./Components/Processors/Processors.js";
-import PortOverview from './Components/PortOverview/PortOverview.js';
-import Sensors from "./Components/Sensors/Sensors.js";
+import DeviceDetails from "./Components/DeviceDetails/devicedetails.js";
+import PortsBasic from './Components/PortsBasic/portsbasic.js';
+import Processors from "./Components/Processors/processors.js";
+import PortOverview from './Components/PortOverview/portoverview.js';
+import Sensors from "./Components/Sensors/sensors.js";
 import Statuses from "./Components/Statuses/statuses.js";
 import DeviceOverview from "./Components/DeviceOverview/overview.js";
 import Information from "./Components/Information/Information.js";
