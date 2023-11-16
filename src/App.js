@@ -6,14 +6,14 @@ import 'bootstrap-select/dist/js/bootstrap-select.min.js';
 // Your React component code
 
 
-import LoginForm from "./Components/LoginForm/Login.js"
+import LoginForm from "./NMS-Frontend/actions-runner-frontend/_work/react_nms/react_nms/src/Components/LoginForm/Login.js"
 
-import Home from './Components/Home/Home.js';
-import Memory from "./Components/Memory/memory.js";
-import LockScreen from './Components/LockScreen/LockScreen.js';
-import RecoverPassword from './Components/RecoverPassword/RecoverPassword.js';
-import Register from './Components/Register/register.js';
-import Notfound from './Components/Notfound/error.js';
+import Home from './actions-runner-frontend/_work/react_nms/react_nms/src/Components/Home/Home.js';
+import Memory from "./_work/react_nms/react_nms/src/Components/Memory/memory.js";
+import LockScreen from './react_nms/react_nms/src/Components/LockScreen/LockScreen.js';
+import RecoverPassword from './react_nms/src/Components/RecoverPassword/RecoverPassword.js';
+import Register from './react_nms/src/Components/Register/register.js';
+import Notfound from '../src/Components/Notfound/error.js';
 import Ports from './Components/Ports/Ports.js';
 import Devices from './Components/Devices/Devices.js';
 import DevicesPollingPerformance from './Components/DevicesPollingPerformance/Polling.js';
