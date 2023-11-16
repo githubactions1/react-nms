@@ -19,14 +19,14 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             
 
-            
+
             <li className="nav-item">
               <form className="d-flex">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                 <button className="btn btn-outline-success" type="submit">Search</button>
               </form>
             </li>
-            {/* Notifications */}
+            
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href=" " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <AiOutlineBell   style={{paddingLeft:"0px",pr:"15px", color:"red"}}/> 
