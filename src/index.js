@@ -14,7 +14,13 @@ import "../node_modules/node-waves/dist/waves.js"
 // import "assets/js/simplebar.min.js"
 import "../node_modules/simplebar/dist/simplebar.min.js"
 
+import "../node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js"
 
+import "../node_modules/source-map-loader/dist/cjs.js"
+
+import "../node_modules/webpack-dev-server/client/index.js"
+
+import "../node_modules/webpack/hot/dev-server.js"
 
 // import "../node_modules/autonumeric/autoNumeric-min.js"
 import "../node_modules/popper.js/dist/popper.min.js"
@@ -27,7 +33,7 @@ import "../node_modules/popper.js/dist/popper.min.js"
  
 //  import "assets/pages/dashboard-demo.js"
 
- import "../node_modules/popper.js/dist/popper.js"
+//  import "../node_modules/popper.js/dist/popper.js"
  
  
 //  import "assets/js/theme.js" 

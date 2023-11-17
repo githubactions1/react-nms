@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from '../Navbar/navbar.js'; 
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+import Footer from "../Footer/Footer.js"
 
 
 function DeviceStatus() {
@@ -744,18 +745,17 @@ function DeviceStatus() {
             {/* <!-- container-fluid -->  */}
           </div>
           {/* <!-- End Page-content --> */}
-          <footer className="footer">
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-md-12">
-                  <div className="text-center">
-                    {" "}
-                    2023 © Network Management System.{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </footer>
+      
+
+     <div>
+        
+      <Footer />
+
+     </div>
+
+
+
+
         </div>
         {/* <!-- end main content-->  */}
       </div>
