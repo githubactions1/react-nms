@@ -3,8 +3,8 @@
  * Author: Myra Studio
  * File: Main Js
  */
-import Waves from "/node_modules/node-waves/dist/waves.js"
-import jQuery from '../node_modules/jquery/dist/jquery.min.js'
+import Waves from "node-waves/dist/waves.js"
+import jQuery from 'jquery/dist/jquery.min.js'
 
 (function ($) {
 

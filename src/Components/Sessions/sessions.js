@@ -51,7 +51,7 @@ const sessions = () => {
                           <p class="font-size-12 mb-0 text-muted"><i class="mdi mdi-clock-outline"></i> 2 min ago</p>
                         </div>
                       </div>
-                      </a> <a href="" class="text-reset notification-item">
+                      </a> <a href=" " class="text-reset notification-item">
                       <div class="media">
                         <div class="avatar-xs mr-3"> <span class="avatar-title bg-success rounded-circle"> <i class="mdi mdi-cloud-download-outline"></i> </span> </div>
                         <div class="media-body">
@@ -198,40 +198,7 @@ const sessions = () => {
       </div>
       
       
-      <script src="assets/js/jquery.min.js"></script> 
-      <script src="assets/js/bootstrap.bundle.min.js"></script> 
-      <script src="assets/js/waves.js"></script> 
-      <script src="assets/js/simplebar.min.js"></script> 
-      
-     
-      <script src="../plugins/morris-js/morris.min.js"></script> 
-     
-      <script src="../plugins/raphael/raphael.min.js"></script> 
-      
-     
-      <script src="assets/pages/dashboard-demo.js"></script> 
-      
-     
-      <script src="assets/js/theme.js"></script> 
-      
-      <script src="assets/js/script_tooltip.js"></script> 
-      
-      
-      <script src="assets/pages/morris-chart-demo.js"></script> 
-      
-    
-      <script src="../plugins/chart-js/chart.min.js"></script> 
-      
-      
-      <script src="assets/js/bootstrap-select.min.js"></script> 
-      
-     
-      <script src="../plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
-      <script src="../plugins/switchery/switchery.min.js"></script> 
-      <script src="assets/pages/advanced-plugins-demo.js"></script> 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
-      
-      
+   
       <div id="pop-up">
         <div class="table-responsive">
           <table class="table table-centered table-hover table-xl mb-0" id="">

@@ -262,44 +262,8 @@ export default function PortsBasic() {
   {/* <!-- end main content-->  */}
   
 </div>
-{/* <!-- END layout-wrapper -->  */}
 
-{/* <!-- jQuery  -->  */}
-<script src="./assets/js/jquery.min.js"></script> 
-<script src="./assets/js/bootstrap.bundle.min.js"></script> 
-<script src="./assets/js/waves.js"></script> 
-<script src="./assets/js/simplebar.min.js"></script> 
-
-{/* <!-- Morris Js-->  */}
-<script src="./assets/plugins/morris-js/morris.min.js"></script> 
-{/* <!-- Raphael Js-->  */}
-<script src="./assets/plugins/raphael/raphael.min.js"></script> 
-
-{/* <!-- Morris Custom Js-->  */}
-<script src="./assets/pages/dashboard-demo.js"></script> 
-
-{/* <!-- App js -->  */}
-<script src="./assets/js/theme.js"></script> 
-{/* <!-- Script Tooltip js -->  */}
-<script src="./assets/js/script_tooltip.js"></script> 
-
-{/* <!-- Morris Custom Js-->  */}
-<script src="./assets/pages/morris-chart-demo.js"></script> 
-
-{/* <!-- Chart Js-->  */}
-<script src="./assets/plugins/chart-js/chart.min.js"></script> 
-
-{/* <!-- Multi Select dropdown Js-->  */}
-<script src="./assets/js/bootstrap-select.min.js"></script> 
-
-{/* <!-- Plugins js -->  */}
-<script src="./assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
-<script src="./assets/plugins/switchery/switchery.min.js"></script> 
-<script src="./assets/pages/advanced-plugins-demo.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossOrigin="anonymous"></script> 
-
-{/* <!-- HIDDEN / POP-UP DIV --> */}
-{/* <div id="pop-up">
+<div id="pop-up">
   <div className="table-responsive">
     <table className="table table-centered table-hover table-xl mb-0" id="">
       <tbody>
@@ -341,7 +305,7 @@ export default function PortsBasic() {
         <tr className="bg-light">
           <td className="blue"></td>
           <td className="text-truncate"><i className="fab fa-atlassian sync"></i></td>
-          <td className="text-truncate"><a href="#"><strong>175.101.18.18</strong></a></td>
+          <td className="text-truncate"><a href=" "><strong>175.101.18.18</strong></a></td>
           <td className="text-truncate">Mikrotik RouterOS 6.49.7<br/>
             Mikrotik CCR1009-7G-1C-1S+</td>
           <td className="text-truncate">110d 5h 8m 18s<br/>
@@ -359,7 +323,7 @@ export default function PortsBasic() {
       </tbody>
     </table>
   </div>
-</div> */}
+</div>
 
     </>
   )

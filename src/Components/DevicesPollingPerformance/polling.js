@@ -331,43 +331,9 @@ function Polling() {
   {/* <!-- end main content-->  */}
   
 </div>
-{/* <!-- END layout-wrapper -->  */}
 
-{/* <!-- jQuery  -->  */}
-<script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script> 
-<script src="%PUBLIC_URL%/assets/js/bootstrap.bundle.min.js"></script> 
-<script src="%PUBLIC_URL%/assets/js/waves.js"></script> 
-<script src="%PUBLIC_URL%/assets/js/simplebar.min.js"></script> 
 
-{/* <!-- Morris Js-->  */}
-<script src="%PUBLIC_URL%/plugins/morris-js/morris.min.js"></script> 
-{/* <!-- Raphael Js-->  */}
-<script src="%PUBLIC_URL%/plugins/raphael/raphael.min.js"></script> 
 
-{/* <!-- Morris Custom Js-->  */}
-<script src="%PUBLIC_URL%/assets/pages/dashboard-demo.js"></script> 
-
-{/* <!-- App js -->  */}
-<script src="%PUBLIC_URL%/assets/js/theme.js"></script> 
-{/* <!-- Script Tooltip js -->  */}
-<script src="%PUBLIC_URL%/assets/js/script_tooltip.js"></script> 
-
-{/* <!-- Morris Custom Js-->  */}
-<script src="%PUBLIC_URL%/assets/pages/morris-chart-demo.js"></script> 
-
-{/* <!-- Chart Js-->  */}
-<script src="%PUBLIC_URL%/plugins/chart-js/chart.min.js"></script> 
-
-{/* <!-- Multi Select dropdown Js-->  */}
-<script src="assets/js/bootstrap-select.min.js"></script> 
-
-{/* <!-- Plugins js -->  */}
-<script src="%PUBLIC_URL%/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script> 
-<script src="%PUBLIC_URL%/plugins/switchery/switchery.min.js"></script> 
-<script src="%PUBLIC_URL%/assets/pages/advanced-plugins-demo.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossOrigin="anonymous"></script> 
-
-{/* <!-- HIDDEN / POP-UP DIV --> */}
 <div id="pop-up">
   <div className="table-responsive">
     <table className="table table-centered table-hover table-xl mb-0" id="">

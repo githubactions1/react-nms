@@ -904,10 +904,7 @@ function Home() {
           </footer>
         </div>
 
-        {/* <script src="../node_modules/react-refresh/cjs/react-refresh-runtime.production.min.js"></script> 
-
-    <script src="../node_modules/react-refresh/cjs/react-refresh-babel.development.js"></script> */}
-
+        
 
 
 
