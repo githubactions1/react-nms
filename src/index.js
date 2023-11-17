@@ -14,6 +14,8 @@ import "../node_modules/node-waves/dist/waves.js"
 // import "assets/js/simplebar.min.js"
 import "../node_modules/simplebar/dist/simplebar.min.js"
 
+
+
 // import "../node_modules/autonumeric/autoNumeric-min.js"
 import "../node_modules/popper.js/dist/popper.min.js"
 
