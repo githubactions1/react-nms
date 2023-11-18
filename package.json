@@ -48,7 +48,7 @@
     "react-spinners": "^0.13.8",
     "react-switchery": "^1.1.2",
     "react-tooltip": "^5.23.0",
-    "recharts": "^2.9.2",
+    "recharts": "^2.9.3",
     "search-bar-react": "^1.1.0",
     "serve": "^14.2.1",
     "simplebar": "^6.2.5",
@@ -59,9 +59,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "prod": "serve -s build"
   },
