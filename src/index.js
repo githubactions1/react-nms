@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
-import $ from  'jquery';
+// import $ from  'jquery';
 
 // Bootstrap and related dependencies
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
