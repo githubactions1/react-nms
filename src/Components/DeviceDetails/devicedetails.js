@@ -352,7 +352,7 @@ function DeviceDetails() {
       </div>
     </footer>
   </div>
-  {/* <!-- end main content-->  */}
+
   
 </div>
 
