@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "NMS-React",
-      script: "npm run start ",
+      script: "npm run prod ",
     },
   ],
   env: {
